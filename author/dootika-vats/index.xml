@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dootika Vats | Medha Agarwal</title>
+    <link>/author/dootika-vats/</link>
+      <atom:link href="/author/dootika-vats/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dootika Vats</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 02:54:39 +0530</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Dootika Vats</title>
+      <link>/author/dootika-vats/</link>
+    </image>
+    
+    <item>
+      <title>Globally centered autocovariances in MCMC</title>
+      <link>/project/g-acf/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:39 +0530</pubDate>
+      <guid>/project/g-acf/</guid>
+      <description>&lt;p&gt;Advancements in modern personal computing have made it easy to run parallel Markov chain Monte
+Carlo (MCMC) implementations. This is particularly useful for slow mixing Markov chains where
+the starting points of the chains are spread over the state-space in order to more accurately capture
+characteristics of the target distribution. The output from parallel chains is then summarized,
+visually and quantitatively, to assess the empirical mixing properties of the chains and the quality
+of Monte Carlo estimators.&lt;/p&gt;
+&lt;p&gt;In this project, we proposed a globally-centered autocovariance estimator for multiple-chain MCMC samping
+that exhibits significant theoretical and empirical improvements. We show that the bias of the G-ACvF estimator
+is smaller than the bias of the current state-of-the-art. The impact of this improved estimator is evident
+in three critical output analysis applications: (1) ACF plots, (2) estimates of the Monte Carlo asymptotic covariance matrix,
+and (3) estimates of the effective sample size. We replace the autocovariance estimator with G-ACvF in SV estimators to
+obtain a globally-centered SV (G-SV) estimator and demonstrate strong consistency under weak conditions. The large sample
+bias and variance are also computed and shown to be significantly better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ESS estimation for Importance sampling</title>
+      <link>/project/bootstrapess/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:23 +0530</pubDate>
+      <guid>/project/bootstrapess/</guid>
+      <description>&lt;p&gt;Effective sample size is an indispensible diagnostic in all Monte Carlo methods. A valid ESS estimator assumes dual responsibilities - 1)
+it indicates which proposal is best given a family of proposal distributions, and 2) it give a reliable estimate of ESS for
+given target and proposal distributions. Unfortunately, the ESS estimator for importance sampling has several drawbacks and fails
+to comply with some of the basic necessities of a valid ESS estimator. However, even in its worst form, it is used often for diagnostics and continues to be the current state-of-the-art.&lt;/p&gt;
+&lt;p&gt;This is an ongoing projects that aims to develop a bootstrap methodology for estimating variance and effective sample size of
+importance samples as well as prove their strong consistency. Apart from that we also aim to deveop a sequential stopping criterion
+for importance sampling that is asymptotically valid. A higher goal for the project is to take these ideas into a multivariate setting wherein calculating ESS is a difficult problem as evident
+from existing literature.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Globally-centered autocovariances in MCMC</title>
+      <link>/publication/g-acf/</link>
+      <pubDate>Thu, 03 Sep 2020 02:39:37 +0530</pubDate>
+      <guid>/publication/g-acf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

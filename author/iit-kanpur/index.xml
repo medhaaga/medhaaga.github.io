@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IIT Kanpur | Medha Agarwal</title>
+    <link>/author/iit-kanpur/</link>
+      <atom:link href="/author/iit-kanpur/index.xml" rel="self" type="application/rss+xml" />
+    <description>IIT Kanpur</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 02:55:00 +0530</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>IIT Kanpur</title>
+      <link>/author/iit-kanpur/</link>
+    </image>
+    
+    <item>
+      <title>Autonomous Underwater Vehicle - ANAHITA</title>
+      <link>/project/auv/</link>
+      <pubDate>Sun, 01 Nov 2020 02:55:00 +0530</pubDate>
+      <guid>/project/auv/</guid>
+      <description>&lt;p&gt;A team of enthusiastic students, professors, and engineers, Team-AUV, works in the area of marine robotics with special interest
+in automated systems. The team has succesfully manufactured two autonomous underwater vehicles - Varun and Anahita. Both of the vehicles
+have been taken to national and inetrnational competitions. These machines are capable of navigating in unknown environments, performing
+acoustic localization, and identifying objects using computer vision. The team has also conducted valuable research in all three -
+mechanical, electrical, and software systems. The resulting research paper was accepted in IEEE OES Symposium, Porto, now available on arxiv.&lt;/p&gt;
+&lt;p&gt;I have worked in the team for more than a year in the mechanical subsystem during the development of ANAHITA. We created a light-weight modular frame
+using abrasive water-jet machining. Since, the entire system works underwater, one of the major mechanical challenges in marine robotics is sealing that we
+ensured using nitrile O-rings. Several parts and mechanisms had to be meticulously designed for months to ensure precission as well as high scalability.
+I was mostly involved in grabbing mechanism and design of the main hull. It was an incredibly enriching experience that I suppose one must have if
+they have the opportunity of being in a technology institute.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

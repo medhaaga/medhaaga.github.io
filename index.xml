@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medha Agarwal</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Medha Agarwal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 02:55:00 +0530</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Medha Agarwal</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Autonomous Underwater Vehicle - ANAHITA</title>
+      <link>/project/auv/</link>
+      <pubDate>Sun, 01 Nov 2020 02:55:00 +0530</pubDate>
+      <guid>/project/auv/</guid>
+      <description>&lt;p&gt;A team of enthusiastic students, professors, and engineers, Team-AUV, works in the area of marine robotics with special interest
+in automated systems. The team has succesfully manufactured two autonomous underwater vehicles - Varun and Anahita. Both of the vehicles
+have been taken to national and inetrnational competitions. These machines are capable of navigating in unknown environments, performing
+acoustic localization, and identifying objects using computer vision. The team has also conducted valuable research in all three -
+mechanical, electrical, and software systems. The resulting research paper was accepted in IEEE OES Symposium, Porto, now available on arxiv.&lt;/p&gt;
+&lt;p&gt;I have worked in the team for more than a year in the mechanical subsystem during the development of ANAHITA. We created a light-weight modular frame
+using abrasive water-jet machining. Since, the entire system works underwater, one of the major mechanical challenges in marine robotics is sealing that we
+ensured using nitrile O-rings. Several parts and mechanisms had to be meticulously designed for months to ensure precission as well as high scalability.
+I was mostly involved in grabbing mechanism and design of the main hull. It was an incredibly enriching experience that I suppose one must have if
+they have the opportunity of being in a technology institute.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Parameter Estimation of 3-Weibull Distribution</title>
+      <link>/project/weibull/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:52 +0530</pubDate>
+      <guid>/project/weibull/</guid>
+      <description>&lt;p&gt;The problem of parameter estimation for a Weibull distribution is of significant interest in survival analysis. However,
+many point estimators like MLE, momemts method,and MAP estimates using iterative EM or BFGS methods fail especially when
+the shape parameter is small and/or the left truncation is high. I (in team of two) worked on studying and
+implementing Bayesian inference of the unknown parameters of the Weibull distribution.&lt;/p&gt;
+&lt;p&gt;We followed an approach of factorizing the posterior density of shape and scale parameter into a marginal distribution
+(of scale parameter) conditioned on data, and a conditional posterior density (of shape parameter) conditioned on the scale parameter and data.
+We assumed that the posterior distribution for shape parameter is a log-concave function and approximated it to a gamma distribution with unknown
+hyperparameters. This helped in constructing a Gibbs sampling procedure and obtaining the Bayes estimate of our parameters along with credible intervals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Globally centered autocovariances in MCMC</title>
+      <link>/project/g-acf/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:39 +0530</pubDate>
+      <guid>/project/g-acf/</guid>
+      <description>&lt;p&gt;Advancements in modern personal computing have made it easy to run parallel Markov chain Monte
+Carlo (MCMC) implementations. This is particularly useful for slow mixing Markov chains where
+the starting points of the chains are spread over the state-space in order to more accurately capture
+characteristics of the target distribution. The output from parallel chains is then summarized,
+visually and quantitatively, to assess the empirical mixing properties of the chains and the quality
+of Monte Carlo estimators.&lt;/p&gt;
+&lt;p&gt;In this project, we proposed a globally-centered autocovariance estimator for multiple-chain MCMC samping
+that exhibits significant theoretical and empirical improvements. We show that the bias of the G-ACvF estimator
+is smaller than the bias of the current state-of-the-art. The impact of this improved estimator is evident
+in three critical output analysis applications: (1) ACF plots, (2) estimates of the Monte Carlo asymptotic covariance matrix,
+and (3) estimates of the effective sample size. We replace the autocovariance estimator with G-ACvF in SV estimators to
+obtain a globally-centered SV (G-SV) estimator and demonstrate strong consistency under weak conditions. The large sample
+bias and variance are also computed and shown to be significantly better.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quasi Newton Method for MM Acceleration</title>
+      <link>/project/qnm/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:32 +0530</pubDate>
+      <guid>/project/qnm/</guid>
+      <description>&lt;p&gt;MM algorithms, along with their abundant statistical applications, suffer from slow convergence, especially when the
+problem dimension is high. An MM algorithm seeks to optimize some objective function, but can equivalently be expressed without reference to that
+objective as seeking the fixed points of the algorithm map. There has been some work for accelerating the MM algorithm using quasi-Newton methods.
+These methods attempt to update the approximation for the Jacobian of the MM algorithm map residual at each iteration. However, most of them are either too problem-specific or rely on certain  conditions on starting values or use a scalar
+approximation for the Jacobian matrix which can cause immense loss of information. We propose a quasi-Newton method for
+accelerating MM algorithms based on the popular Broyden&amp;rsquo;s root finding method.&lt;/p&gt;
+&lt;p&gt;We utilize the information from MM algorithm to construct better secant approximations than standard Broyden’s root finding
+method and discuss how it acts as a corrective when a classical method jumps to a &amp;lsquo;bad&amp;rsquo; state. Borrowing the ideas of convergence
+from classical Broyden&amp;rsquo;s literature, we also prove the local and superlinear convergence of our method under reasonable assumptions.
+Our method while bringing us closer to established wisdom, leads to Jacobians that can be unwieldy in high-dimensional problems.
+To resolve this problem, we propose a limited memory version of our algorithm that follows the idea limited memory BFGS updates.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ESS estimation for Importance sampling</title>
+      <link>/project/bootstrapess/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:23 +0530</pubDate>
+      <guid>/project/bootstrapess/</guid>
+      <description>&lt;p&gt;Effective sample size is an indispensible diagnostic in all Monte Carlo methods. A valid ESS estimator assumes dual responsibilities - 1)
+it indicates which proposal is best given a family of proposal distributions, and 2) it give a reliable estimate of ESS for
+given target and proposal distributions. Unfortunately, the ESS estimator for importance sampling has several drawbacks and fails
+to comply with some of the basic necessities of a valid ESS estimator. However, even in its worst form, it is used often for diagnostics and continues to be the current state-of-the-art.&lt;/p&gt;
+&lt;p&gt;This is an ongoing projects that aims to develop a bootstrap methodology for estimating variance and effective sample size of
+importance samples as well as prove their strong consistency. Apart from that we also aim to deveop a sequential stopping criterion
+for importance sampling that is asymptotically valid. A higher goal for the project is to take these ideas into a multivariate setting wherein calculating ESS is a difficult problem as evident
+from existing literature.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design and Development of Underwater Vehicle: ANAHITA</title>
+      <link>/publication/auv/</link>
+      <pubDate>Sun, 01 Nov 2020 02:33:56 +0530</pubDate>
+      <guid>/publication/auv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markov chain Monte Carlo</title>
+      <link>/talk/sigml-mcmc/</link>
+      <pubDate>Sat, 03 Oct 2020 18:00:01 +0530</pubDate>
+      <guid>/talk/sigml-mcmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Globally-centered autocovariances in MCMC</title>
+      <link>/publication/g-acf/</link>
+      <pubDate>Thu, 03 Sep 2020 02:39:37 +0530</pubDate>
+      <guid>/publication/g-acf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

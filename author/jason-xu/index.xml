@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Xu | Medha Agarwal</title>
+    <link>/author/jason-xu/</link>
+      <atom:link href="/author/jason-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jason Xu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 02:54:32 +0530</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jason Xu</title>
+      <link>/author/jason-xu/</link>
+    </image>
+    
+    <item>
+      <title>Quasi Newton Method for MM Acceleration</title>
+      <link>/project/qnm/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:32 +0530</pubDate>
+      <guid>/project/qnm/</guid>
+      <description>&lt;p&gt;MM algorithms, along with their abundant statistical applications, suffer from slow convergence, especially when the
+problem dimension is high. An MM algorithm seeks to optimize some objective function, but can equivalently be expressed without reference to that
+objective as seeking the fixed points of the algorithm map. There has been some work for accelerating the MM algorithm using quasi-Newton methods.
+These methods attempt to update the approximation for the Jacobian of the MM algorithm map residual at each iteration. However, most of them are either too problem-specific or rely on certain  conditions on starting values or use a scalar
+approximation for the Jacobian matrix which can cause immense loss of information. We propose a quasi-Newton method for
+accelerating MM algorithms based on the popular Broyden&amp;rsquo;s root finding method.&lt;/p&gt;
+&lt;p&gt;We utilize the information from MM algorithm to construct better secant approximations than standard Broyden’s root finding
+method and discuss how it acts as a corrective when a classical method jumps to a &amp;lsquo;bad&amp;rsquo; state. Borrowing the ideas of convergence
+from classical Broyden&amp;rsquo;s literature, we also prove the local and superlinear convergence of our method under reasonable assumptions.
+Our method while bringing us closer to established wisdom, leads to Jacobians that can be unwieldy in high-dimensional problems.
+To resolve this problem, we propose a limited memory version of our algorithm that follows the idea limited memory BFGS updates.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

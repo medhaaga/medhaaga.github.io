@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Importance Sampling | Medha Agarwal</title>
+    <link>/tag/importance-sampling/</link>
+      <atom:link href="/tag/importance-sampling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Importance Sampling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 02:54:23 +0530</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Importance Sampling</title>
+      <link>/tag/importance-sampling/</link>
+    </image>
+    
+    <item>
+      <title>ESS estimation for Importance sampling</title>
+      <link>/project/bootstrapess/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:23 +0530</pubDate>
+      <guid>/project/bootstrapess/</guid>
+      <description>&lt;p&gt;Effective sample size is an indispensible diagnostic in all Monte Carlo methods. A valid ESS estimator assumes dual responsibilities - 1)
+it indicates which proposal is best given a family of proposal distributions, and 2) it give a reliable estimate of ESS for
+given target and proposal distributions. Unfortunately, the ESS estimator for importance sampling has several drawbacks and fails
+to comply with some of the basic necessities of a valid ESS estimator. However, even in its worst form, it is used often for diagnostics and continues to be the current state-of-the-art.&lt;/p&gt;
+&lt;p&gt;This is an ongoing projects that aims to develop a bootstrap methodology for estimating variance and effective sample size of
+importance samples as well as prove their strong consistency. Apart from that we also aim to deveop a sequential stopping criterion
+for importance sampling that is asymptotically valid. A higher goal for the project is to take these ideas into a multivariate setting wherein calculating ESS is a difficult problem as evident
+from existing literature.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

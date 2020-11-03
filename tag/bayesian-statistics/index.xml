@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian statistics | Medha Agarwal</title>
+    <link>/tag/bayesian-statistics/</link>
+      <atom:link href="/tag/bayesian-statistics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bayesian statistics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 02:54:52 +0530</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Bayesian statistics</title>
+      <link>/tag/bayesian-statistics/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian Parameter Estimation of 3-Weibull Distribution</title>
+      <link>/project/weibull/</link>
+      <pubDate>Sun, 01 Nov 2020 02:54:52 +0530</pubDate>
+      <guid>/project/weibull/</guid>
+      <description>&lt;p&gt;The problem of parameter estimation for a Weibull distribution is of significant interest in survival analysis. However,
+many point estimators like MLE, momemts method,and MAP estimates using iterative EM or BFGS methods fail especially when
+the shape parameter is small and/or the left truncation is high. I (in team of two) worked on studying and
+implementing Bayesian inference of the unknown parameters of the Weibull distribution.&lt;/p&gt;
+&lt;p&gt;We followed an approach of factorizing the posterior density of shape and scale parameter into a marginal distribution
+(of scale parameter) conditioned on data, and a conditional posterior density (of shape parameter) conditioned on the scale parameter and data.
+We assumed that the posterior distribution for shape parameter is a log-concave function and approximated it to a gamma distribution with unknown
+hyperparameters. This helped in constructing a Gibbs sampling procedure and obtaining the Bayes estimate of our parameters along with credible intervals.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
