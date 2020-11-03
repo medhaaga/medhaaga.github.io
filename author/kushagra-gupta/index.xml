@@ -5,7 +5,7 @@
     <link>/author/kushagra-gupta/</link>
       <atom:link href="/author/kushagra-gupta/index.xml" rel="self" type="application/rss+xml" />
     <description>Kushagra Gupta</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 02:54:52 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Oct 2020 18:00:01 +0530</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Kushagra Gupta</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Markov chain Monte Carlo</title>
+      <link>/talk/sigml-mcmc/</link>
+      <pubDate>Sat, 03 Oct 2020 18:00:01 +0530</pubDate>
+      <guid>/talk/sigml-mcmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bayesian Parameter Estimation of 3-Weibull Distribution</title>
       <link>/project/weibull/</link>
-      <pubDate>Sun, 01 Nov 2020 02:54:52 +0530</pubDate>
+      <pubDate>Wed, 01 May 2019 02:54:52 +0530</pubDate>
       <guid>/project/weibull/</guid>
       <description>&lt;p&gt;The problem of parameter estimation for a Weibull distribution is of significant interest in survival analysis. However,
 many point estimators like MLE, momemts method,and MAP estimates using iterative EM or BFGS methods fail especially when
@@ -26,14 +34,6 @@ implementing Bayesian inference of the unknown parameters of the Weibull distrib
 We assumed that the posterior distribution for shape parameter is a log-concave function and approximated it to a gamma distribution with unknown
 hyperparameters. This helped in constructing a Gibbs sampling procedure and obtaining the Bayes estimate of our parameters along with credible intervals.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Markov chain Monte Carlo</title>
-      <link>/talk/sigml-mcmc/</link>
-      <pubDate>Sat, 03 Oct 2020 18:00:01 +0530</pubDate>
-      <guid>/talk/sigml-mcmc/</guid>
-      <description></description>
     </item>
     
   </channel>
