@@ -60,10 +60,10 @@
   
     
   
-  <meta name="description" content="Markov chain Monte Carlo (MCMC) is a popular method of generating correlated samples from complex multi-dimensional distributions where i.i.d sampling is not possible. MCMC finds application in a wide variety of fields, Bayesian machine learning, optimization, and econometrics, to name a few. With the recent advancements in computing power, long runs of MCMC have become accessible to practitioners with parallel implementation of MCMC emerging as a popular choice. This trend has motivated research that answers some fundamental questions pertinent to sampling. In this talk, we will give an intuitive understanding of how and why the algorithm works and what are the best practices in MCMC. Additionally, we will talk about diagnostics that determine the quality of MCMC algorithms. Towards the end, we will address the problem of output analysis of parallel MCMC by discussing globally centered Monte Carlo error estimators." />
+  <meta name="description" content="The principle of majorization-minimization (MM) provides a general framework for eliciting effective algorithms to solve optimization problems. However, they often suffer from slow convergence, especially in large-scale and high-dimensional data settings. This has drawn attention to acceleration schemes designed exclusively for MM algorithms, but many existing designs are either problem-specific or rely on approximations and heuristics loosely inspired by the optimization literature. We propose a novel, rigorous quasi-Newton method for accelerating any valid MM algorithm, cast as seeking a fixed point of the MM \textit{algorithm map}. The method does not require specific information or computation from the objective function or its gradient and enjoys a limited-memory variant amenable to efficient computation in high-dimensional settings. By connecting our approach to Broyden&#39;s classical root-finding methods, we establish convergence guarantees and identify conditions for linear and super-linear convergence. These results are validated numerically and compared to peer methods in a thorough empirical study, showing that it achieves state-of-the-art performance across a diverse range of problems." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://medhaaga.github.io/talk/markov-chain-monte-carlo/" />
+  <link rel="alternate" hreflang="en-us" href="https://medhaaga.github.io/publication/qnm/" />
 
   
   
@@ -279,7 +279,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://medhaaga.github.io/talk/markov-chain-monte-carlo/" />
+  <link rel="canonical" href="https://medhaaga.github.io/publication/qnm/" />
 
   
   
@@ -302,26 +302,29 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Medha Agarwal" />
-  <meta property="og:url" content="https://medhaaga.github.io/talk/markov-chain-monte-carlo/" />
-  <meta property="og:title" content="Markov chain Monte Carlo | Medha Agarwal" />
-  <meta property="og:description" content="Markov chain Monte Carlo (MCMC) is a popular method of generating correlated samples from complex multi-dimensional distributions where i.i.d sampling is not possible. MCMC finds application in a wide variety of fields, Bayesian machine learning, optimization, and econometrics, to name a few. With the recent advancements in computing power, long runs of MCMC have become accessible to practitioners with parallel implementation of MCMC emerging as a popular choice. This trend has motivated research that answers some fundamental questions pertinent to sampling. In this talk, we will give an intuitive understanding of how and why the algorithm works and what are the best practices in MCMC. Additionally, we will talk about diagnostics that determine the quality of MCMC algorithms. Towards the end, we will address the problem of output analysis of parallel MCMC by discussing globally centered Monte Carlo error estimators." /><meta property="og:image" content="https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://medhaaga.github.io/publication/qnm/" />
+  <meta property="og:title" content="Quasi-Newton acceleration of EM and MM algorithms via Broyden′s method | Medha Agarwal" />
+  <meta property="og:description" content="The principle of majorization-minimization (MM) provides a general framework for eliciting effective algorithms to solve optimization problems. However, they often suffer from slow convergence, especially in large-scale and high-dimensional data settings. This has drawn attention to acceleration schemes designed exclusively for MM algorithms, but many existing designs are either problem-specific or rely on approximations and heuristics loosely inspired by the optimization literature. We propose a novel, rigorous quasi-Newton method for accelerating any valid MM algorithm, cast as seeking a fixed point of the MM \textit{algorithm map}. The method does not require specific information or computation from the objective function or its gradient and enjoys a limited-memory variant amenable to efficient computation in high-dimensional settings. By connecting our approach to Broyden&#39;s classical root-finding methods, we establish convergence guarantees and identify conditions for linear and super-linear convergence. These results are validated numerically and compared to peer methods in a thorough empirical study, showing that it achieves state-of-the-art performance across a diverse range of problems." /><meta property="og:image" content="https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2020-10-03T00:00:00&#43;00:00"
+        content="2022-01-15T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2020-10-03T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-01-15T00:00:00&#43;00:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -329,28 +332,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://medhaaga.github.io/talk/markov-chain-monte-carlo/"
+    "@id": "https://medhaaga.github.io/publication/qnm/"
   },
-  "name": "Markov chain Monte Carlo",
+  "headline": "Quasi-Newton acceleration of EM and MM algorithms via Broyden′s method",
   
-  "location": {
-    "@type": "Place",
-    "name": "Indian Institute of Technology Kanpur"
-  },
+  "datePublished": "2022-01-15T00:00:00Z",
+  "dateModified": "2022-01-15T00:00:00Z",
   
-  
-  "startDate": "2020-10-03T00:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Medha Agarwal"
   },
   
-  "description": "Markov chain Monte Carlo (MCMC) is a popular method of generating correlated samples from complex multi-dimensional distributions where i.i.d sampling is not possible. MCMC finds application in a wide variety of fields, Bayesian machine learning, optimization, and econometrics, to name a few. With the recent advancements in computing power, long runs of MCMC have become accessible to practitioners with parallel implementation of MCMC emerging as a popular choice. This trend has motivated research that answers some fundamental questions pertinent to sampling. In this talk, we will give an intuitive understanding of how and why the algorithm works and what are the best practices in MCMC. Additionally, we will talk about diagnostics that determine the quality of MCMC algorithms. Towards the end, we will address the problem of output analysis of parallel MCMC by discussing globally centered Monte Carlo error estimators."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Medha Agarwal",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "The principle of majorization-minimization (MM) provides a general framework for eliciting effective algorithms to solve optimization problems. However, they often suffer from slow convergence, especially in large-scale and high-dimensional data settings. This has drawn attention to acceleration schemes designed exclusively for MM algorithms, but many existing designs are either problem-specific or rely on approximations and heuristics loosely inspired by the optimization literature. We propose a novel, rigorous quasi-Newton method for accelerating any valid MM algorithm, cast as seeking a fixed point of the MM \\textit{algorithm map}. The method does not require specific information or computation from the objective function or its gradient and enjoys a limited-memory variant amenable to efficient computation in high-dimensional settings. By connecting our approach to Broyden's classical root-finding methods, we establish convergence guarantees and identify conditions for linear and super-linear convergence. These results are validated numerically and compared to peer methods in a thorough empirical study, showing that it achieves state-of-the-art performance across a diverse range of problems."
 }
 </script>
 
@@ -360,15 +365,17 @@
 
   
 
+  
 
 
 
 
-  <title>Markov chain Monte Carlo | Medha Agarwal</title>
+
+  <title>Quasi-Newton acceleration of EM and MM algorithms via Broyden′s method | Medha Agarwal</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="432fbb05767f56a483b0171c41a101b2" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="7bacfc9ca6e9c588ab0dbf9281ee780f" >
 
   
   
@@ -589,7 +596,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/publication"><span>Publications</span></a>
+            <a class="nav-link  active" href="/publication"><span>Publications</span></a>
           </li>
 
           
@@ -738,7 +745,16 @@
   </div>
 
   <div class="page-body">
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -759,7 +775,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Markov chain Monte Carlo</h1>
+  <h1>Quasi-Newton acceleration of EM and MM algorithms via Broyden′s method</h1>
 
   
 
@@ -778,11 +794,19 @@
 
   <span class="author-highlighted">
       Medha Agarwal</span>, <span >
-      Kushagra Gupta</span>
+      Jason Xu</span>
   </div>
   
   
 
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2022
+  </span>
   
 
   
@@ -823,18 +847,9 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://drive.google.com/file/d/1iB88nzScxq-FvNqy17FwKRwfSE6cLWNL/view?usp=sharing" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2201.05935.pdf" target="_blank" rel="noopener">
   PDF
 </a>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -843,9 +858,18 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://drive.google.com/file/d/1bUwgzydyAfDhsIshwGDP6XxuUTKNguTS/view?usp=sharing" target="_blank" rel="noopener">
-  Video
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/medhaaga/Quasi-Newton-accelerated-MM" target="_blank" rel="noopener">
+  Code
 </a>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -862,33 +886,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Markov chain Monte Carlo (MCMC) is a popular method of generating correlated samples from complex multi-dimensional distributions where i.i.d sampling is not possible. MCMC finds application in a wide variety of fields, Bayesian machine learning, optimization, and econometrics, to name a few. With the recent advancements in computing power, long runs of MCMC have become accessible to practitioners with parallel implementation of MCMC emerging as a popular choice. This trend has motivated research that answers some fundamental questions pertinent to sampling. In this talk, we will give an intuitive understanding of how and why the algorithm works and what are the best practices in MCMC. Additionally, we will talk about diagnostics that determine the quality of MCMC algorithms. Towards the end, we will address the problem of output analysis of parallel MCMC by discussing globally centered Monte Carlo error estimators.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The principle of majorization-minimization (MM) provides a general framework for eliciting effective algorithms to solve optimization problems. However, they often suffer from slow convergence, especially in large-scale and high-dimensional data settings. This has drawn attention to acceleration schemes designed exclusively for MM algorithms, but many existing designs are either problem-specific or rely on approximations and heuristics loosely inspired by the optimization literature. We propose a novel, rigorous quasi-Newton method for accelerating any valid MM algorithm, cast as seeking a fixed point of the MM \textit{algorithm map}. The method does not require specific information or computation from the objective function or its gradient and enjoys a limited-memory variant amenable to efficient computation in high-dimensional settings. By connecting our approach to Broyden&rsquo;s classical root-finding methods, we establish convergence guarantees and identify conditions for linear and super-linear convergence. These results are validated numerically and compared to peer methods in a thorough empirical study, showing that it achieves state-of-the-art performance across a diverse range of problems.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Oct 3, 2020 12:00 AM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://www.cse.iitk.ac.in/users/sigml/" target="_blank" rel="noopener">
-            Special Interest Group in Machine Learning, IITK
+            <a href="/publication/#3">
+              Preprint
             </a>
           </div>
         </div>
@@ -899,25 +910,10 @@
     
 
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Indian Institute of Technology Kanpur</div>
-          
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
 
     
 

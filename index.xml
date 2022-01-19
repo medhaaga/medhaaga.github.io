@@ -5,12 +5,20 @@
     <link>https://medhaaga.github.io/</link>
       <atom:link href="https://medhaaga.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Medha Agarwal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png</url>
       <title>Medha Agarwal</title>
       <link>https://medhaaga.github.io/</link>
     </image>
+    
+    <item>
+      <title>Quasi-Newton acceleration of EM and MM algorithms via Broyden′s method</title>
+      <link>https://medhaaga.github.io/publication/qnm/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://medhaaga.github.io/publication/qnm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Design and Development of Underwater Vehicle: ANAHITA</title>
