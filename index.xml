@@ -5,12 +5,20 @@
     <link>https://medhaaga.github.io/</link>
       <atom:link href="https://medhaaga.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Medha Agarwal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png</url>
       <title>Medha Agarwal</title>
       <link>https://medhaaga.github.io/</link>
     </image>
+    
+    <item>
+      <title>A principled stopping rule for importance sampling</title>
+      <link>https://medhaaga.github.io/publication/ess/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://medhaaga.github.io/publication/ess/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Globally-centered autocovariances in MCMC</title>
@@ -33,14 +41,6 @@
       <link>https://medhaaga.github.io/publication/auv/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://medhaaga.github.io/publication/auv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A principled stopping rule for importance sampling</title>
-      <link>https://medhaaga.github.io/publication/ess/</link>
-      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://medhaaga.github.io/publication/ess/</guid>
       <description></description>
     </item>
     
@@ -122,14 +122,6 @@
     </item>
     
     <item>
-      <title>Markov chain Monte Carlo</title>
-      <link>https://medhaaga.github.io/talk/markov-chain-monte-carlo/</link>
-      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://medhaaga.github.io/talk/markov-chain-monte-carlo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Landing Page</title>
       <link>https://medhaaga.github.io/talks/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -150,7 +142,9 @@
       <link>https://medhaaga.github.io/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://medhaaga.github.io/project/</guid>
-      <description>&lt;h2 id=&#34;a-principled-stopping-rule-for-importance-sampling&#34;&gt;A principled stopping rule for importance sampling&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;estimating-knothe-rosenblatt-maps-using-input-convex-neural-networks&#34;&gt;Estimating Knothe-Rosenblatt maps using input convex neural networks&lt;/h2&gt;
+&lt;p&gt;Density estimation and sampling from an unknown target measure using only a finite set of samples from the target is the fundamental goal of generative models.  Transport maps achieve this objective by constructing a deterministic coupling between the complex target measure and a tractable reference measure. However, computing these transport maps for general measures, especially with likelihood-based cost functions, is a challenging task. For computational feasibility, often a triangular structure is considered for transport maps. In case of absolutely continuous target and reference measures, this triangular map is unique and corresponds to the Knöthe-Rosenblatt (KR) rearrangement. This project explores KR rearrangements in detail. Further, we propose an estimator for KR maps using input-convex neural networks that minimizes the Kullback-Leibner divergence between the normalized target and reference density.&lt;/p&gt;
+&lt;h2 id=&#34;a-principled-stopping-rule-for-importance-sampling&#34;&gt;A principled stopping rule for importance sampling&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2108.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Preprint]&lt;/a&gt; &lt;a href=&#34;https://github.com/medhaaga/Importance-Sampling-Stopping-Rule&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Importance sampling (IS) is a Monte Carlo technique that relies on weighted samples, simulated from a proposal distribution, to estimate intractable integrals. The quality of the estimators improves with the number of samples. However, for achieving a desired quality of estimation, the required number of samples is unknown, and depends on the quantity of interest, the estimator, and the chosen proposal. We present a sequential stopping rule that terminates simulation when the overall variability in estimation is relatively small. The proposed methodology closely connects to the idea of an effective sample size in IS and overcomes crucial shortcomings of existing metrics, e.g., it acknowledges multivariate estimation problems. Our stopping rule retains asymptotic guarantees and provides users a clear guideline on when to stop the simulation in IS.&lt;/p&gt;
 &lt;h2 id=&#34;quasi-newton-acceleration-of-em-and-mm-algorithms-via-broydens-method&#34;&gt;Quasi-Newton Acceleration of EM and MM Algorithms via Broyden&amp;rsquo;s Method&lt;/h2&gt;
