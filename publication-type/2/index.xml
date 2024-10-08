@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Medha Agarwal</title>
+    <title>2 on Medha Agarwal</title>
     <link>https://medhaaga.github.io/publication-type/2/</link>
-      <atom:link href="https://medhaaga.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
-    <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png</url>
-      <title>2</title>
-      <link>https://medhaaga.github.io/publication-type/2/</link>
-    </image>
-    
+    <description>Recent content in 2 on Medha Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://medhaaga.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quasi-Newton acceleration of EM and MM algorithms via Broyden′s method</title>
       <link>https://medhaaga.github.io/publication/qnm/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://medhaaga.github.io/publication/qnm/</guid>
       <description></description>
     </item>
@@ -24,6 +20,7 @@
       <title>A principled stopping rule for importance sampling</title>
       <link>https://medhaaga.github.io/publication/ess/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://medhaaga.github.io/publication/ess/</guid>
       <description></description>
     </item>
@@ -32,6 +29,7 @@
       <title>Globally-centered autocovariances in MCMC</title>
       <link>https://medhaaga.github.io/publication/g-acf/</link>
       <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://medhaaga.github.io/publication/g-acf/</guid>
       <description></description>
     </item>

@@ -1,38 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markov chain Monte Carlo | Medha Agarwal</title>
+    <title>Markov chain Monte Carlo on Medha Agarwal</title>
     <link>https://medhaaga.github.io/tag/markov-chain-monte-carlo/</link>
-      <atom:link href="https://medhaaga.github.io/tag/markov-chain-monte-carlo/index.xml" rel="self" type="application/rss+xml" />
-    <description>Markov chain Monte Carlo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
-    <image>
-      <url>https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png</url>
-      <title>Markov chain Monte Carlo</title>
-      <link>https://medhaaga.github.io/tag/markov-chain-monte-carlo/</link>
-    </image>
-    
+    <description>Recent content in Markov chain Monte Carlo on Medha Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://medhaaga.github.io/tag/markov-chain-monte-carlo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research Projects</title>
       <link>https://medhaaga.github.io/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://medhaaga.github.io/project/</guid>
-      <description>&lt;h2 id=&#34;estimating-knothe-rosenblatt-maps-using-input-convex-neural-networks&#34;&gt;Estimating Knothe-Rosenblatt maps using input convex neural networks&lt;/h2&gt;
-&lt;p&gt;Density estimation and sampling from an unknown target measure using only a finite set of samples from the target is the fundamental goal of generative models.  Transport maps achieve this objective by constructing a deterministic coupling between the complex target measure and a tractable reference measure. However, computing these transport maps for general measures, especially with likelihood-based cost functions, is a challenging task. For computational feasibility, often a triangular structure is considered for transport maps. In case of absolutely continuous target and reference measures, this triangular map is unique and corresponds to the Knöthe-Rosenblatt (KR) rearrangement. This project explores KR rearrangements in detail. Further, we propose an estimator for KR maps using input-convex neural networks that minimizes the Kullback-Leibner divergence between the normalized target and reference density.&lt;/p&gt;
-&lt;h2 id=&#34;a-principled-stopping-rule-for-importance-sampling&#34;&gt;A principled stopping rule for importance sampling&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2108.13289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Preprint]&lt;/a&gt; &lt;a href=&#34;https://github.com/medhaaga/Importance-Sampling-Stopping-Rule&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Importance sampling (IS) is a Monte Carlo technique that relies on weighted samples, simulated from a proposal distribution, to estimate intractable integrals. The quality of the estimators improves with the number of samples. However, for achieving a desired quality of estimation, the required number of samples is unknown, and depends on the quantity of interest, the estimator, and the chosen proposal. We present a sequential stopping rule that terminates simulation when the overall variability in estimation is relatively small. The proposed methodology closely connects to the idea of an effective sample size in IS and overcomes crucial shortcomings of existing metrics, e.g., it acknowledges multivariate estimation problems. Our stopping rule retains asymptotic guarantees and provides users a clear guideline on when to stop the simulation in IS.&lt;/p&gt;
-&lt;h2 id=&#34;quasi-newton-acceleration-of-em-and-mm-algorithms-via-broydens-method&#34;&gt;Quasi-Newton Acceleration of EM and MM Algorithms via Broyden&amp;rsquo;s Method&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/medhaaga/Quasi-Newton-accelerated-MM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;
-&lt;a href=&#34;https://github.com/medhaaga/quasiNewtonMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Software]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The principle of majorization-minimization (MM) provides a general framework for eliciting effective algorithms to solve optimization problems. However, they often suffer from slow convergence, especially in large-scale and  high-dimensional data settings. This has drawn attention to  acceleration schemes designed exclusively for MM algorithms, but  many existing designs are either  problem-specific or rely on approximations and heuristics loosely inspired by the optimization literature. We propose a novel, rigorous  quasi-Newton method for accelerating any valid MM algorithm, cast as seeking a fixed point of the MM \textit{algorithm map}. The method does not require specific information or computation from the objective function or its gradient, and enjoys a limited-memory variant amenable to efficient computation in high-dimensional settings. By connecting our approach to Broyden&amp;rsquo;s classical root-finding methods, we establish convergence guarantees and identify conditions for linear and super-linear convergence. These results are validated numerically and compared to peer methods in a thorough empirical study, showing that it achieves state-of-the-art performance across a diverse range of problems.&lt;/p&gt;
-&lt;h2 id=&#34;globally-centered-autocovariances-in-parallel-mcmc&#34;&gt;Globally-centered autocovariances in parallel MCMC&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2009.01799&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Preprint]&lt;/a&gt;
-&lt;a href=&#34;https://github.com/medhaaga/Replicated-Spectral-Variance-Estimator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;
-&lt;a href=&#34;https://github.com/medhaaga/multichainACF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Software]&lt;/a&gt;
-&lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/medhaaga/multichainACF/blob/master/mcACF.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[HTML]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Advancements in modern personal computing have made it easy to run parallel Markov chain Monte Carlo (MCMC) implementations. This is particularly useful for slow mixing Markov chains where the starting points of the chains are spread over the state-space in order to more accurately capture characteristics of the target distribution. The output from parallel chains is then summarized, visually and quantitatively, to assess the empirical mixing properties of the chains and the quality of Monte Carlo estimators. In this project, we proposed a globally-centered autocovariance estimator for multiple-chain MCMC samping that exhibits significant theoretical and empirical improvements. The impact of this improved estimator is evident in three critical output analysis applications: (1) ACF plots, (2) estimates of the Monte Carlo asymptotic covariance matrix, and (3) estimates of the effective sample size. We replace the autocovariance estimator with G-ACvF in SV estimators to obtain a globally-centered SV (G-SV) estimator and demonstrate strong consistency under weak conditions. The large sample bias and variance are also computed and shown to be significantly better.&lt;/p&gt;
-</description>
+      <description>Estimating Knothe-Rosenblatt maps using input convex neural networks Density estimation and sampling from an unknown target measure using only a finite set of samples from the target is the fundamental goal of generative models.</description>
     </item>
     
   </channel>

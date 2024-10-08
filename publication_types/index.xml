@@ -1,16 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | Medha Agarwal</title>
+    <title>Publication_types on Medha Agarwal</title>
     <link>https://medhaaga.github.io/publication_types/</link>
-      <atom:link href="https://medhaaga.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publication_types</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png</url>
-      <title>Publication_types</title>
-      <link>https://medhaaga.github.io/publication_types/</link>
-    </image>
+    <description>Recent content in Publication_types on Medha Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://medhaaga.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3</title>
+      <link>https://medhaaga.github.io/publication-type/3/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/publication-type/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://medhaaga.github.io/publication-type/2/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/publication-type/2/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

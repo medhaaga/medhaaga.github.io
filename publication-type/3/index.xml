@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 | Medha Agarwal</title>
+    <title>3 on Medha Agarwal</title>
     <link>https://medhaaga.github.io/publication-type/3/</link>
-      <atom:link href="https://medhaaga.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
-    <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png</url>
-      <title>3</title>
-      <link>https://medhaaga.github.io/publication-type/3/</link>
-    </image>
-    
+    <description>Recent content in 3 on Medha Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://medhaaga.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iterated Schrödinger bridge approximation to Wasserstein gradient flows</title>
       <link>https://medhaaga.github.io/publication/gf/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://medhaaga.github.io/publication/gf/</guid>
       <description></description>
     </item>
@@ -24,6 +20,7 @@
       <title>Design and Development of Underwater Vehicle: ANAHITA</title>
       <link>https://medhaaga.github.io/publication/auv/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
       <guid>https://medhaaga.github.io/publication/auv/</guid>
       <description></description>
     </item>

@@ -1,16 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Medha Agarwal</title>
+    <title>Tags on Medha Agarwal</title>
     <link>https://medhaaga.github.io/tags/</link>
-      <atom:link href="https://medhaaga.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://medhaaga.github.io/media/icon_hu6e174ec2851070ba2dae33198a8ad438_32226_512x512_fill_lanczos_center_3.png</url>
-      <title>Tags</title>
-      <link>https://medhaaga.github.io/tags/</link>
-    </image>
+    <description>Recent content in Tags on Medha Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medhaaga.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Academic</title>
+      <link>https://medhaaga.github.io/tag/academic/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/tag/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>开源</title>
+      <link>https://medhaaga.github.io/tag/%E5%BC%80%E6%BA%90/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/tag/%E5%BC%80%E6%BA%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effective sample size</title>
+      <link>https://medhaaga.github.io/tag/effective-sample-size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/tag/effective-sample-size/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Importance Sampling</title>
+      <link>https://medhaaga.github.io/tag/importance-sampling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/tag/importance-sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markov chain Monte Carlo</title>
+      <link>https://medhaaga.github.io/tag/markov-chain-monte-carlo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/tag/markov-chain-monte-carlo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MM Algorithm</title>
+      <link>https://medhaaga.github.io/tag/mm-algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://medhaaga.github.io/tag/mm-algorithm/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
