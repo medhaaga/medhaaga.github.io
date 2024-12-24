@@ -15,6 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a third-year Ph.D. student in the Department of Statistics at the University of Washington, where I am advised by [Alex Luedtke](https://www.alexluedtke.com/) and [Lalit Jain](https://lalitjain.com/). Before coming to UW, I completed my M.S. in electrical and computer engineering at Duke University, advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/home.html), [Sudeepa Roy](https://users.cs.duke.edu/~sudeepa/), and [Alex Volfovsky](https://volfovsky.github.io/). Prior to that, I received my B.E. in manufacturing processes and automation from the University of Delhi, India, where I was advised by [Umang Soni](https://scholar.google.co.in/citations?user=glxZ4TQAAAAJ&hl=en).
+I am a fourth-year Ph.D. student in the [Department of Statistics](https://stat.uw.edu/) at University of Washington advised by [Zaid Harchaoui](https://faculty.washington.edu/zaid/) and [Alex Leudtke](https://www.alexluedtke.com/). My research interests involve generative modeling, optimal transport, gradient flows, and deep learning in general. I am interested in application of optimal transport and gradient flows in statistical inference and explainable artificial intelligence. At UW, I am fortunate to be working with [Soumik Pal](https://sites.math.washington.edu//~soumik/) on optimal transport.
 
-My research centers on machine learning and causal inference. Currently, I'm working on conditional distributional treatment effects, and on adaptive design of instrumental variables.
+I did my undergraduate in Mathematics from [Indian Institute of Technology Kanpur](https://www.iitk.ac.in/) with a minor in English literature. At IITK, I worked on developing methods for output analysis and convergence diagnostics of Markov chain Monte Carlo and importance sampling with [Dootika Vats](https://dvats.github.io).
+
+Contact me at 'medhaaga [at] uw [dot] edu'.
+
