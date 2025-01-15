@@ -15,6 +15,6 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 
 ## News
 
-- Gave a talk titled *Pre-trained Transformer Learning as Heat Flows* at [JMM 2025](https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program.html). [Slides](/files/jmm25.pdf)
-- Presented a poster titled *Pretrained Transformers are Heat Flows* at [ASA SLDS 2024](https://sites.google.com/view/slds2024/menu?authuser=0). Won the best poster award! [Slides](/files/slds24.pdf)
-- Presented a poster titled *Iterated Schrödinger Bridge Approximation to Wasserstein Gradient Flows* at [SIAM MSD 2024](https://www.siam.org/conferences-events/siam-conferences/mds24/). [Slides](/files/siam24.pdf)
+- Gave a talk titled *Pre-trained Transformer Learning as Heat Flows* at [JMM 2025](https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program.html). [[Slides]](/files/jmm25.pdf)
+- Presented a poster titled *Pretrained Transformers are Heat Flows* at [ASA SLDS 2024](https://sites.google.com/view/slds2024/menu?authuser=0). Won the best poster award! [[Slides]](/files/slds24.pdf)
+- Presented a poster titled *Iterated Schrödinger Bridge Approximation to Wasserstein Gradient Flows* at [SIAM MSD 2024](https://www.siam.org/conferences-events/siam-conferences/mds24/). [[Slides]](/files/siam24.pdf)

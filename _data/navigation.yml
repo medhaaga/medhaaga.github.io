@@ -9,8 +9,8 @@ main:
     url: https://scholar.google.com/citations?user=AdCjG_gAAAAJ&hl=en&authuser=1
     # url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  # - title: "Talks"
+  #   url: /talks/    
       
   - title: "CV"
     url: /files/cv.pdf
