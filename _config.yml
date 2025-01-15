@@ -22,10 +22,10 @@ repository               : "medhaaga/medhaaga.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Medha Agarwal"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "University of Washington"
+  # location         : "Earth"
   employer         : "University of Washington"
   uri              : # URL
   email            : "medhaaga@uw.edu" 
