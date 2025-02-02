@@ -6,27 +6,25 @@
 
 main:
   - title: "Publications"
-    url: https://scholar.google.com/citations?user=AdCjG_gAAAAJ&hl=en&authuser=1
-    # url: /publications/
+    # url: https://scholar.google.com/citations?user=AdCjG_gAAAAJ&hl=en&authuser=1
+    url: /publications/
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Talks"
+    url: /talks/    
       
   - title: "CV"
     url: /files/cv.pdf
     # url: /cv/
 
-
-  # - title: "Teaching"
-  #   url: /teaching/    
+  - title: "Teaching"
+    url: /teaching/    
     
   # - title: "Portfolio"
   #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-
+  
     
   # - title: "Guide"
   #   url: /markdown/
