@@ -26,19 +26,19 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 </div>
 
 <div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Apr 2024</b> <span style="flex: 1;">Received the best student poster award at <a href="https://sites.google.com/view/slds2024/menu?authuser=0">ASA SLDS 2024</a>.</span>
-</div>
-
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Apr 2024</b> <span style="flex: 1;">Presented a poster titled <i>Pretrained Transformers are Heat Flows</i> at <a href="https://sites.google.com/view/slds2024/menu?authuser=0">ASA SLDS 2024</a>. <a href="/files/slds24.pdf">[Poster]</a></span>
-</div>
-
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Mar 2024</b> <span style="flex: 1;">Presented a poster titled <i>Iterated Schrödinger Bridge Approximation to Wasserstein Gradient Flows</i> at <a href="https://www.siam.org/conferences-events/siam-conferences/mds24/">SIAM MSD 2024</a>. <a href="/files/siam24.pdf">[Poster]</a></span>
-</div>
-
-<div style="display: flex; gap: 20px;">
   <b style="min-width: 120px;">Dec 2024</b> <span style="flex: 1;">The paper on <i>Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty</i> in collaboration with <a href="https://www.abrahmslab.com/">Abrahms's Lab</a> is now on <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1">arXiv</a>!</span>
+</div>
+
+<div style="display: flex; gap: 20px;">
+  <b style="min-width: 120px;">Nov 2024</b> <span style="flex: 1;">Received the best student poster award at <a href="https://sites.google.com/view/slds2024/menu?authuser=0">ASA SLDS 2024</a>.</span>
+</div>
+
+<div style="display: flex; gap: 20px;">
+  <b style="min-width: 120px;">Nov 2024</b> <span style="flex: 1;">Presented a poster titled <i>Pretrained Transformers are Heat Flows</i> at <a href="https://sites.google.com/view/slds2024/menu?authuser=0">ASA SLDS 2024</a>. <a href="/files/slds24.pdf">[Poster]</a></span>
+</div>
+
+<div style="display: flex; gap: 20px;">
+  <b style="min-width: 120px;">Oct 2024</b> <span style="flex: 1;">Presented a poster titled <i>Iterated Schrödinger Bridge Approximation to Wasserstein Gradient Flows</i> at <a href="https://www.siam.org/conferences-events/siam-conferences/mds24/">SIAM MSD 2024</a>. <a href="/files/siam24.pdf">[Poster]</a></span>
 </div>
 
 <div style="display: flex; gap: 20px;">
