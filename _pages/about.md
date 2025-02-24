@@ -18,7 +18,11 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
 <div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Feb 2025</b> <span style="flex: 1;"> Upcoming talk at the <a href="https://escience.washington.edu/events/uw-data-science-seminar-kasim-rafiq-and-medha-agarwal/">UW Data Science Seminar</a> titled <i>Revealing the Hidden Lives of Cryptic Carnivores with Machine Learning and AI</i>.</span>
+  <b style="min-width: 120px;">Feb 2025</b> <span style="flex: 1;"> Gave a talk at the <a href="https://www.ifml.institute/events/mathematics-deep-learning-workshop">IFML Mathematucs of Deep Learning Workshop in Austin, TX. <a href="files/ifml.pdf">[Slides]</a></span>
+</div>
+
+<div style="display: flex; gap: 20px;">
+  <b style="min-width: 120px;">Feb 2025</b> <span style="flex: 1;"> Gave a talk at the <a href="https://escience.washington.edu/events/uw-data-science-seminar-kasim-rafiq-and-medha-agarwal/">UW Data Science Seminar</a> titled <i>Revealing the Hidden Lives of Cryptic Carnivores with Machine Learning and AI</i>. Check out the <a href="https://www.youtube.com/watch?v=Y5jXkbXtCag">YouTube video</a>! <a href="files/eScience_seminar.pdf">[Slides]</a></span>
 </div>
 
 <div style="display: flex; gap: 20px;">
