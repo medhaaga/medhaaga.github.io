@@ -18,7 +18,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
 <div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">June 2025</b> <span style="flex: 1;"> Looking forward to attend the workshop on <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5430">Wasserstein Gradient Flows in Math and Machine Learning</a> at Banff International Research Station</a>. </span>
+  <b style="min-width: 120px;">June 2025</b> <span style="flex: 1;"> Looking forward to attend the workshop on <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5430">Wasserstein Gradient Flows in Math and Machine Learning</a> at Banff International Research Station. </span>
 </div>
 
 <div style="display: flex; gap: 20px;">
