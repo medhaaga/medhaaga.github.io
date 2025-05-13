@@ -10,6 +10,7 @@ redirect_from:
 <!-- Leave two spaces at the end -->
 
 ### University of Washington
+* *Teaching Assistant:* CSE 547 - Machine Learning for Big Data (Spring 2025)
 * *Teaching Assistant:* STAT 512 - Statistical Inference (Autumn 2024)
 * *Teaching Assistant:* STAT 513 - Statistical Inference (Winter 2024)
 * *Teaching Assistant:* STAT 513 - Statistical Inference (Winter 2023)
