@@ -18,6 +18,10 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
 <div style="display: flex; gap: 20px;">
+  <b style="min-width: 120px;">July 2025</b> <span style="flex: 1;"> Our paper titled <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1.full.pdf">*Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty*</a> accepted at Methods of Ecology and Evolution. </span>
+</div>
+
+<div style="display: flex; gap: 20px;">
   <b style="min-width: 120px;">June 2025</b> <span style="flex: 1;"> Looking forward to attend the workshop on <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5430">Wasserstein Gradient Flows in Math and Machine Learning</a> at Banff International Research Station. </span>
 </div>
 
@@ -49,12 +53,3 @@ Contact me at `medhaaga [at] uw [dot] edu`.
   <b style="min-width: 120px;">Oct 2024</b> <span style="flex: 1;">Presented a poster titled <i>Iterated Schrödinger Bridge Approximation to Wasserstein Gradient Flows</i> at <a href="https://www.siam.org/conferences-events/siam-conferences/mds24/">SIAM MSD 2024</a>. <a href="/files/siam24.pdf">[Poster]</a></span>
 </div>
 
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Jun 2024</b> <span style="flex: 1;">The paper on <i>Iterated Schrödinger bridge approximation to Wasserstein Gradient Flows</i> is now on <a href="https://arxiv.org/abs/2406.10823">arXiv</a>!</span>
-</div>
-
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Summer 2024</b> <span style="flex: 1;">Concluded a summer internship at Amazon Science!</span>
-</div>
-
-</div>
