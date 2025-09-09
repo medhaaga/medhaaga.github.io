@@ -18,7 +18,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
 <div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">July 2025</b> <span style="flex: 1;"> Our paper titled <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1.full.pdf">*Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty*</a> accepted at Methods of Ecology and Evolution. </span>
+  <b style="min-width: 120px;">July 2025</b> <span style="flex: 1;"> Our paper titled <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1.full.pdf">Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty</a> accepted at Methods of Ecology and Evolution. </span>
 </div>
 
 <div style="display: flex; gap: 20px;">
