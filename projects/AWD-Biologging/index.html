@@ -12,7 +12,7 @@ layout: null
 <body>
 
   <div class="content">
-    <h1>Conformal Prediction for<br>classifying animal behaviours with uncertainty</h1>
+    <h1>Conformal Prediction to Classify Animal Behaviours with Uncertainty</h1>
     
     <div class="authors">
       <span class="author-block">Medha Agarwal<sup>1</sup>,</span>
@@ -29,18 +29,24 @@ layout: null
     <div class="links">
       <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf" class="btn">Paper</a>
       <a href="https://github.com/medhaaga/AWD-Biologging" class="btn">Code</a>
-      <a href="https://zenodo.org/records/16890491" class="btn">Data</a>
+      <a href="https://zenodo.org/records/16890491" class="btn">Dataset</a>
     </div>
 
     <div class="teaser">
       <h2>The Problem: Noisy Predictions in Continuous Streams</h2>
-      <video poster="images/poster_fig9.jpg" autoplay controls muted loop playsinline height="100%">
+      <!-- <video poster="images/poster_fig9.jpg" autoplay controls muted loop playsinline height="100%">
         <source src="videos/smoothing_demo.mp4" type="video/mp4">
       </video>
       <p class="caption">
         <strong>Temporal Smoothing in Action:</strong> Raw model predictions (top) fluctuate rapidly. 
         Our smoothing pipeline (bottom) uses temporal context to output biologically plausible behaviour sequences.
-      </p>
+      </p> -->
+        <div class="figure-row">
+        <img src="static/raps.png" alt="RAPS">
+        <p class="caption">
+          Regularized adaptive prediction sets ($\alpha=0.95$) for of a random test sample from each behaviour class. The numbers associated with each behaviour in the prediction set are the model predicted probability of success of that class.
+        </p>
+      </div>
     </div>
 
     <div class="section">
