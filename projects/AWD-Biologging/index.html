@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Classifying Animal Behaviour with Uncertainty</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+</head>
+<body>
+
+  <div class="content">
+    <h1>Conformal Prediction for<br>classifying animal behaviours with uncertainty</h1>
+    
+    <div class="authors">
+      <span class="author-block">Medha Agarwal<sup>1</sup>,</span>
+      <span class="author-block">Kasim Rafiq<sup>2,3</sup>,</span>
+      <span class="author-block">Ronak Mehta<sup>1</sup>,</span>
+      <span class="author-block">Briana Abrahms<sup>2,3</sup>,</span>
+      <span class="author-block">Zaid Harchaoui<sup>1</sup></span>
+    </div>
+    
+    <div class="affiliations">
+      <span><sup>1</sup>University of Washington (Statistics), <sup>2</sup>University of Washington (Biology), <sup>3</sup>Botswana Predator Conservation</span>
+    </div>
+
+    <div class="links">
+      <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf" class="btn">Paper</a>
+      <a href="https://github.com/medhaaga/AWD-Biologging" class="btn">Code</a>
+      <a href="https://zenodo.org/records/16890491" class="btn">Data</a>
+    </div>
+
+    <div class="teaser">
+      <h2>The Problem: Noisy Predictions in Continuous Streams</h2>
+      <video poster="images/poster_fig9.jpg" autoplay controls muted loop playsinline height="100%">
+        <source src="videos/smoothing_demo.mp4" type="video/mp4">
+      </video>
+      <p class="caption">
+        <strong>Temporal Smoothing in Action:</strong> Raw model predictions (top) fluctuate rapidly. 
+        Our smoothing pipeline (bottom) uses temporal context to output biologically plausible behaviour sequences.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Abstract</h2>
+      <p>
+        Animal-worn sensors have revolutionised ecology, but classification remains challenging due to class imbalance 
+        and unquantified uncertainty. We introduce an open-source approach using 1D CNNs and conformal prediction 
+        (RAPS) to classify behaviour with statistically valid uncertainty sets.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Methodology</h2>
+      
+      <h3>1. Architecture & Conformal Prediction</h3>
+      <div class="figure-row">
+        <img src="images/figure2_cnn.png" alt="CNN Architecture">
+        <p class="caption">
+          <strong>Figure 2:</strong> Our 1D Convolutional Neural Network extracts features from tri-axial accelerometer data. 
+          We use Conformal Prediction ($\mathcal{M}_2$) to calibrate softmax scores.
+        </p>
+      </div>
+
+      <h3>2. Quantifying Uncertainty (RAPS)</h3>
+      <div class="figure-row">
+        <img src="images/figure8_raps.png" alt="RAPS Prediction Sets">
+        <p class="caption">
+          <strong>Figure 8:</strong> Instead of a single guess, we output prediction sets guaranteed to contain the true label 
+          with probability $1-\alpha$. Note how "Feeding" and "Moving" often appear together due to signal similarity.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Citation</h2>
+      <pre><code>@article{agarwal2025leveraging,
+  title={Leveraging machine learning and accelerometry...},
+  author={Agarwal, Medha and Mehta, Ronak and ...},
+  year={2025}
+}</code></pre>
+    </div>
+
+  </div>
+</body>
+</html>
