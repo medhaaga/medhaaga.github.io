@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year Ph.D. student in the [Department of Statistics](https://stat.uw.edu/) at University of Washington advised by [Zaid Harchaoui](https://faculty.washington.edu/zaid/) and [Alex Luedtke](https://www.alexluedtke.com/). My research interests involve generative modeling, optimal transport, gradient flows, and deep learning in general. I am interested in application of optimal transport and gradient flows in statistical inference and explainable artificial intelligence. At UW, I am fortunate to be working with [Soumik Pal](https://sites.math.washington.edu//~soumik/) on optimal transport. I also work in collaboration with the [Abrahms's Lab](https://www.abrahmslab.com/) at the [eScience Institute](https://escience.washington.edu/) on revealing hidden lives of cryptic carnivores with AI. 
+I am a fifth-year Ph.D. student in the [Department of Statistics](https://stat.uw.edu/) at University of Washington advised by [Zaid Harchaoui](https://faculty.washington.edu/zaid/) and [Alex Luedtke](https://www.alexluedtke.com/). My research interests involve generative modeling, optimal transport, gradient flows, and deep learning in general. I am interested in application of optimal transport and gradient flows in statistical inference and explainable artificial intelligence. At UW, I am fortunate to be working with [Soumik Pal](https://sites.math.washington.edu//~soumik/) on optimal transport. I also work in collaboration with the [Abrahms's Lab](https://www.abrahmslab.com/) at the [eScience Institute](https://escience.washington.edu/) on revealing hidden lives of cryptic carnivores with AI. 
 
 I did my undergraduate in Mathematics from [Indian Institute of Technology Kanpur](https://www.iitk.ac.in/) with a minor in English literature. At IITK, I worked on developing methods for output analysis and convergence diagnostics of Markov chain Monte Carlo and importance sampling with [Dootika Vats](https://dvats.github.io).
 
@@ -18,7 +18,11 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
 <div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">July 2025</b> <span style="flex: 1;"> Our paper titled <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1.full.pdf">Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty</a> accepted at Methods of Ecology and Evolution. </span>
+  <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a visiting scholar at Harvard Medical School. </span>
+</div>
+
+<div style="display: flex; gap: 20px;">
+  <b style="min-width: 120px;">July 2025</b> <span style="flex: 1;"> Our paper titled <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1.full.pdf">Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty</a> is accepted at the Journal of Methods in Ecology and Evolution. </span>
 </div>
 
 <div style="display: flex; gap: 20px;">

@@ -8,15 +8,6 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- Leave two spaces at the end -->
-
-<!-- ## Preprints
-
-**A Primal-Dual Algorithm for Faster Distributionally Robust Optimization**  
-**Ronak Mehta**, Jelena Diakonikolas, Zaid Harchaoui  
-*Under review*.  
-[PDF](https://arxiv.org/abs/2403.10763) &nbsp; -->
-
 ## Preprint (under peer review)
 
 **Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty**  
@@ -28,6 +19,7 @@ redirect_from:
 **Langevin Diffusion Approximation to Same Marginal Schrödinger Bridge**  
 **Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
 *arXiv:2406.10823*.  
+*(Under review at Journal of Functional Analysis)*.
 [PDF](https://arxiv.org/abs/2505.07647) &nbsp; [Code](https://github.com/medhaaga/SchrodingerBridgeScheme) &nbsp; 
 
 ## Journals
