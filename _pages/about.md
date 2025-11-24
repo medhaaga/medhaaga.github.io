@@ -69,8 +69,8 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     <br>
     <div style="margin-top: 5px;">
       <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf">[Paper]</a> &nbsp;
-      <a href="/projects/animal-behavior/">[<b>Project Page</b>]</a> &nbsp;
-      <a href="https://github.com/medhaaga/AWD-Biologging">[Code]</a>
+      <a href="/projects/animal-behavior/">[Project Page]</a> &nbsp;
+      <a href="https://github.com/medhaaga/AWD-Biologging">[Code]</a> &nbsp;
       <a href="https://zenodo.org/records/16890491">[Dataset]</a>
     </div>
   </div>
