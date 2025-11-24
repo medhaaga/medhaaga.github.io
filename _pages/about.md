@@ -60,7 +60,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     </b>
     <br>
     <span style="font-size: 0.9em; color: #666;">
-      <i><b>Medha Agarwal</b>, Ronak Mehta, Kasim Rafiq, Briana Abrahms, Zaid Harchaoui</i>
+      <i><b>Medha Agarwal</b>, Kasim Rafiq, Ronak Mehta, Briana Abrahms, Zaid Harchaoui</i>
     </span>
     <br>
     <span style="font-size: 0.9em;">
@@ -68,9 +68,10 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     </span>
     <br>
     <div style="margin-top: 5px;">
-      <a href="https://doi.org/10.1101/2024.12.28.630628">[Paper]</a> &nbsp;
+      <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf">[Paper]</a> &nbsp;
       <a href="/projects/animal-behavior/">[<b>Project Page</b>]</a> &nbsp;
-      <a href="YOUR_GITHUB_LINK">[Code]</a>
+      <a href="https://github.com/medhaaga/AWD-Biologging">[Code]</a>
+      <a href="https://zenodo.org/records/16890491">[Dataset]</a>
     </div>
   </div>
 
