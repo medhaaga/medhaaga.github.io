@@ -18,7 +18,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
 <div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a visiting scholar at Harvard Medical School. </span>
+  <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a visiting scholar at the Harvard Medical School. </span>
 </div>
 
 <div style="display: flex; gap: 20px;">
@@ -41,17 +41,35 @@ Contact me at `medhaaga [at] uw [dot] edu`.
   <b style="min-width: 120px;">Jan 2025</b> <span style="flex: 1;">Gave a talk titled <i>Pre-trained Transformer Learning as Heat Flows</i> at the <a href="https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program.html">JMM 2025</a> AMS Special Session on MRC Mathematics of Adversarial, Interpretable, and Explainable AI. <a href="/files/jmm25.pdf">[Slides]</a></span>
 </div>
 
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Dec 2024</b> <span style="flex: 1;">The paper on <i>Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty</i> in collaboration with <a href="https://www.abrahmslab.com/">Abrahms's Lab</a> is now on <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1">arXiv</a>!</span>
-</div>
-
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Nov 2024</b> <span style="flex: 1;">Received the best student poster award at <a href="https://sites.google.com/view/slds2024/menu?authuser=0">ASA SLDS 2024</a>.</span>
-</div>
-
 ## Projects
 
-**Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty**
-*Medha Agarwal, Kasim Rafiq, Ronak Mehta, Briana Abrahms, Zaid Harchaoui*
-[Paper](https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf) | [Project Page](/projects/AWD-Biologging/) | [Code](https://github.com/medhaaga/AWD-Biologging) | [Dataset](https://zenodo.org/records/16890491)
+<div style="display: flex; gap: 20px; margin-bottom: 20px; align-items: flex-start;">
+  
+  <div style="flex: 0 0 160px;"> 
+    <img src="/projects/animal-behavior/static/figure2.png" 
+         style="width: 100%; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: 1px solid #eee;">
+  </div>
 
+  <div style="flex: 1;">
+    <b style="font-size: 1.1em;">
+      <a href="/projects/animal-behavior/" style="text-decoration: none; color: inherit;">
+        Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty
+      </a>
+    </b>
+    <br>
+    <span style="font-size: 0.9em; color: #666;">
+      <i><b>Medha Agarwal</b>, Ronak Mehta, Kasim Rafiq, Briana Abrahms, Zaid Harchaoui</i>
+    </span>
+    <br>
+    <span style="font-size: 0.9em;">
+      Accepted at <i>Methods in Ecology and Evolution</i> (2025)
+    </span>
+    <br>
+    <div style="margin-top: 5px;">
+      <a href="https://doi.org/10.1101/2024.12.28.630628">[Paper]</a> &nbsp;
+      <a href="/projects/animal-behavior/">[<b>Project Page</b>]</a> &nbsp;
+      <a href="YOUR_GITHUB_LINK">[Code]</a>
+    </div>
+  </div>
+
+</div>
