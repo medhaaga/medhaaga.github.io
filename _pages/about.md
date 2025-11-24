@@ -48,13 +48,13 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; gap: 20px; margin-bottom: 20px; align-items: flex-start;">
   
   <div style="flex: 0 0 160px;"> 
-    <img src="/projects/animal-behavior/static/thumbnail.png" 
+    <img src="/projects/AWD-Biologging/static/thumbnail.png" 
          style="width: 100%; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: 1px solid #eee;">
   </div>
 
   <div style="flex: 1;">
     <b style="font-size: 1.1em;">
-      <a href="/projects/animal-behavior/" style="text-decoration: none; color: inherit;">
+      <a href="/projects/AWD-Biologging/" style="text-decoration: none; color: inherit;">
         Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty
       </a>
     </b>
@@ -69,7 +69,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     <br>
     <div style="margin-top: 5px;">
       <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf">[Paper]</a> &nbsp;
-      <a href="/projects/animal-behavior/">[Project Page]</a> &nbsp;
+      <a href="/projects/AWD-Biologging/">[Project Page]</a> &nbsp;
       <a href="https://github.com/medhaaga/AWD-Biologging">[Code]</a> &nbsp;
       <a href="https://zenodo.org/records/16890491">[Dataset]</a>
     </div>
