@@ -49,11 +49,9 @@ Contact me at `medhaaga [at] uw [dot] edu`.
   <b style="min-width: 120px;">Nov 2024</b> <span style="flex: 1;">Received the best student poster award at <a href="https://sites.google.com/view/slds2024/menu?authuser=0">ASA SLDS 2024</a>.</span>
 </div>
 
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Nov 2024</b> <span style="flex: 1;">Presented a poster titled <i>Pretrained Transformers are Heat Flows</i> at <a href="https://sites.google.com/view/slds2024/menu?authuser=0">ASA SLDS 2024</a>. <a href="/files/slds24.pdf">[Poster]</a></span>
-</div>
+## Projects
 
-<div style="display: flex; gap: 20px;">
-  <b style="min-width: 120px;">Oct 2024</b> <span style="flex: 1;">Presented a poster titled <i>Iterated Schrödinger Bridge Approximation to Wasserstein Gradient Flows</i> at <a href="https://www.siam.org/conferences-events/siam-conferences/mds24/">SIAM MSD 2024</a>. <a href="/files/siam24.pdf">[Poster]</a></span>
-</div>
+**Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty**
+*Medha Agarwal, Kasim Rafiq, Ronak Mehta, Briana Abrahms, Zaid Harchaoui*
+[Paper](https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf) | [Project Page](/projects/AWD-Biologging/) | [Code](https://github.com/medhaaga/AWD-Biologging) | [Dataset](https://zenodo.org/records/16890491)
 
