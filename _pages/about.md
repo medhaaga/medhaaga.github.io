@@ -43,12 +43,12 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 </div>
 
 
-## Projects
+## Selected Publications
 
 <div style="display: flex; gap: 20px; margin-bottom: 20px; align-items: flex-start;">
   
   <div style="flex: 0 0 160px;"> 
-    <img src="/projects/animal-behavior/static/figure2.png" 
+    <img src="/projects/animal-behavior/static/thumbnail.png" 
          style="width: 100%; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: 1px solid #eee;">
   </div>
 
