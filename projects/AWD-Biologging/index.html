@@ -42,13 +42,6 @@ layout: null
     </div>
 
     <div class="teaser">
-      <!-- <video poster="images/poster_fig9.jpg" autoplay controls muted loop playsinline height="100%">
-        <source src="videos/smoothing_demo.mp4" type="video/mp4">
-      </video>
-      <p class="caption">
-        <strong>Temporal Smoothing in Action:</strong> Raw model predictions (top) fluctuate rapidly. 
-        Our smoothing pipeline (bottom) uses temporal context to output biologically plausible behaviour sequences.
-      </p> -->
       <div class="figure-row">
         <img src="static/raps.png" alt="RAPS">
         <p class="caption">
@@ -62,12 +55,13 @@ layout: null
     <ul>
         <li>
         Animal-worn sensors have revolutionised ecology. Accelerometers, which measure changes in acceleration across planes of movement, are increasingly being used to classify animal behaviours across taxa.
+        However, practitioners face challenges like sparsely labeled data with class imbalance, noisy data, distribution shift, and unquantified uncertainty.
         </li>
         <li>
-        However, classification remains challenging due to the sparsity of labeled data, class imbalance, unquantified uncertainty in model outputs, distribution shift, and noisy signals.
+        We introduce an open-source pipeline that integrates 1D Convolutional Neural Networks (CNNs) with Conformal Prediction (CP) to produce statistically valid prediction sets for animal behavior.
         </li>
         <li>
-        We introduce an open-source approach, integrating machine learning and statistical inference to mitigate class imbalances, provide uncertainty quantification, and smoothen noisy classifications.
+        Our approach includes a flexible class rebalancing strategy that significantly improves the detection of rare, ecologically important behaviors.
         </li>
         <li>
         We evaluate our approach via simulation and highlight its utility using data collected from a free-ranging large carnivore, African wild dogs (<em>Lycaon pictus</em>), in the Okavango Delta, Botswana.
@@ -82,25 +76,29 @@ layout: null
     </p>
     <ul>
         <li>
-        <b>Sparse and imbalanced labels:</b> Training datasets suffer from sparse labels and unbalanced label distribution.
+        <b>Sparse and imbalanced labels:</b> Ecological datasets are often dominated by common behaviors (e.g., Resting). In our dataset, minority classes like Feeding and Running comprised only ~6% of the data.
         </li>
         <li>
-        <b>Uncertainty quantification:</b> There is a lack of methods for quantifying uncertainty in behaviour classifications.
+        <b>Uncertainty quantification:</b> Most models output a single "best guess" without indicating confidence, which can be misleading for ambiguous behaviors.
         </li>
         <li>
-        <b>Distribution shifts:</b> Model performance often degrades due to shifts in data distribution across different contexts.
+        <b>Distribution shifts:</b> Models trained on specific individuals or time periods often degrade when applied to new contexts (e.g., different years or animals).
         </li>
         <li>
-        <b>Temporal inconsistency:</b> Models often produce rapidly fluctuating (and ecologically unlikely) classifications for consecutive behaviour segments.
+        <b>Temporal inconsistency:</b> Frame-by-frame classifiers often produce rapid, biologically impossible fluctuations in predicted behavior.
         </li>
     </ul>
     </div>
 
     <div class="section">
-      <h2>Feature Extraction & Class Rebalancing</h2>
+      <h2>Methodology</h2>
 
-      We use 1D Convolutional Neural Network (CNN) to extract features from the raw accelerometry data (see schematic below). Our dataset had a high class imbalance, with minority classes - feeding, moving, and running - comprising only 6% of the data. To alleviate this, we employ a flexible class rebalancing approach 
-      (parametrized by $\theta$) during training where $\theta = 0.0$ implies no rebalancing and $\theta = 1.0$ implies complete rebalancing.
+      <h3> Feature Extraction & Class Rebalancing </h3>
+      <p>
+      We use a 1D CNNs to extract features from raw accelerometry data. To address the severe class imbalance (e.g., 66% Resting vs 2% Feeding), 
+      we employ a flexible class rebalancing approach parametrized by $\theta$. This allows us to interpolate between the original distribution ($\theta=0$) 
+      and a perfectly balanced uniform distribution ($\theta=1$), optimizing for the detection of rare events.
+      </p>
 
       <div class="figure-row">
         <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
@@ -109,10 +107,40 @@ layout: null
         </div>
 
         <p class="caption">
-            <strong>Left:</strong> Our 1D Convolutional Neural Network extracts features from raw tri-axial accelerometer data. 
-            <strong>Right:</strong> Our flexible class rebalancing approach improves recall on <i>Feeding</i> from 0.62 to 0.97.
+            <strong>Left:</strong> Our 1D CNN architecture extracts features from raw tri-axial accelerometer data.
+            <strong>Right:</strong> Confusion matrices showing that our rebalancing approach improves recall on the rare <i>Feeding</i> class from 0.62 to 0.97.
         </p>
       </div>
+
+      <h3> Uncertainty Quantification via Conformal Prediction </h3>
+      
+      <p>
+      Standard neural networks output softmax scores that often do not reflect true probabilities. To address this, we apply <strong>Regularized Adaptive Prediction Sets (RAPS)</strong>. 
+      This method calibrates the model using a held-out validation set to generate prediction sets $\mathcal{C}(X)$. These sets are guaranteed to contain the true behavior $y$ with a user-specified probability $1-\alpha$ (e.g., 95%). 
+      This allows ecologists to identify ambiguous data segments where the model is uncertain.
+      </p>
+
+      <h3> Temporal Smoothning </h3>
+
+      <p>
+      To mitigate noisy, rapid fluctuations in predictions, we implement a temporal smoothing step. We average softmax scores over a sliding window of size $s$, 
+      leveraging the temporal context of surrounding behaviors to enforce biological plausibility.
+      </p>
+
+        <div class="teaser">
+            <img src="static/temporal_smoothening.gif" 
+                alt="Temporal Smoothing Animation" 
+                style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            
+            <p class="caption">
+                <strong>Temporal Smoothing in Action:</strong> Raw model predictions (top) fluctuate rapidly. Our smoothing pipeline (bottom) 
+                uses temporal context to output biologically plausible behaviour transitions.
+            </p>
+        </div>
+    </div>
+
+    
+
 
     <div class="section">
       <h2>Citation</h2>
