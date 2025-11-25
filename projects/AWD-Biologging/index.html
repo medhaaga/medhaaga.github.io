@@ -8,6 +8,15 @@ layout: null
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Classifying Animal Behaviours with Uncertainty</title>
   <link rel="stylesheet" href="style.css">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -49,52 +58,70 @@ layout: null
     </div>
 
     <div class="section">
-      <h2>Highlights</h2>
-      <p>
-        Animal-worn sensors have revolutionised ecology, but classification remains challenging due to class imbalance 
-        and unquantified uncertainty. We introduce an open-source approach using 1D CNNs and conformal prediction 
-        (RAPS) to classify behaviour with statistically valid uncertainty sets.
-      </p>
+    <h2>Highlights</h2>
+    <ul>
+        <li>
+        Animal-worn sensors have revolutionised ecology. Accelerometers, which measure changes in acceleration across planes of movement, are increasingly being used to classify animal behaviours across taxa.
+        </li>
+        <li>
+        However, classification remains challenging due to the sparsity of labeled data, class imbalance, unquantified uncertainty in model outputs, distribution shift, and noisy signals.
+        </li>
+        <li>
+        We introduce an open-source approach, integrating machine learning and statistical inference to mitigate class imbalances, provide uncertainty quantification, and smoothen noisy classifications.
+        </li>
+        <li>
+        We evaluate our approach via simulation and highlight its utility using data collected from a free-ranging large carnivore, African wild dogs (<em>Lycaon pictus</em>), in the Okavango Delta, Botswana.
+        </li>
+    </ul>
     </div>
 
     <div class="section">
-      <h2>Challenges of Behavior Prediction in Ecology</h2>
-      <p>
-        Animal-worn sensors have revolutionised ecology, but classification remains challenging due to class imbalance 
-        and unquantified uncertainty. We introduce an open-source approach using 1D CNNs and conformal prediction 
-        (RAPS) to classify behaviour with statistically valid uncertainty sets.
-      </p>
+    <h2>Challenges of Behavior Prediction in Ecology</h2>
+    <p>
+        The utility of accelerometers lies in their ability to capture distinct waveform patterns within raw data that correspond to specific movements or postures. While techniques range from classical classifiers (SVMs, Random Forests) to deep learning (CNNs, Transformers), current applications face several key limitations:
+    </p>
+    <ul>
+        <li>
+        <b>Sparse and imbalanced labels:</b> Training datasets suffer from sparse labels and unbalanced label distribution.
+        </li>
+        <li>
+        <b>Uncertainty quantification:</b> There is a lack of methods for quantifying uncertainty in behaviour classifications.
+        </li>
+        <li>
+        <b>Distribution shifts:</b> Model performance often degrades due to shifts in data distribution across different contexts.
+        </li>
+        <li>
+        <b>Temporal inconsistency:</b> Models often produce rapidly fluctuating (and ecologically unlikely) classifications for consecutive behaviour segments.
+        </li>
+    </ul>
     </div>
 
     <div class="section">
-      <h2>Methodology</h2>
-      
-      <h3>1. Architecture & Conformal Prediction</h3>
-      <div class="figure-row">
-        <img src="images/figure2_cnn.png" alt="CNN Architecture">
-        <p class="caption">
-          <strong>Figure 2:</strong> Our 1D Convolutional Neural Network extracts features from tri-axial accelerometer data. 
-          We use Conformal Prediction ($\mathcal{M}_2$) to calibrate softmax scores.
-        </p>
-      </div>
+      <h2>Feature Extraction & Class Rebalancing</h2>
 
-      <h3>2. Quantifying Uncertainty (RAPS)</h3>
+      We use 1D Convolutional Neural Network (CNN) to extract features from the raw accelerometry data (see schematic below). Our dataset had a high class imbalance, with minority classes - feeding, moving, and running - comprising only 6% of the data. To alleviate this, we employ a flexible class rebalancing approach 
+      (parametrized by $\theta$) during training where $\theta = 0.0$ implies no rebalancing and $\theta = 1.0$ implies complete rebalancing.
+
       <div class="figure-row">
-        <img src="images/figure8_raps.png" alt="RAPS Prediction Sets">
+        <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+            <img src="static/cnn.png" alt="CNN Architecture" style="max-width: 48%; height: auto;">
+            <img src="static/confusion.png" alt="Second Image Description" style="max-width: 48%; height: auto;"> 
+        </div>
+
         <p class="caption">
-          <strong>Figure 8:</strong> Instead of a single guess, we output prediction sets guaranteed to contain the true label 
-          with probability $1-\alpha$. Note how "Feeding" and "Moving" often appear together due to signal similarity.
+            <strong>Left:</strong> Our 1D Convolutional Neural Network extracts features from raw tri-axial accelerometer data. 
+            <strong>Right:</strong> Our flexible class rebalancing approach improves recall on <i>Feeding</i> from 0.62 to 0.97.
         </p>
       </div>
-    </div>
 
     <div class="section">
       <h2>Citation</h2>
       <pre><code>@article{agarwal2025leveraging,
-  title={Leveraging machine learning and accelerometry...},
-  author={Agarwal, Medha and Mehta, Ronak and ...},
-  year={2025}
-}</code></pre>
+        title={Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty},
+        author={Agarwal, Medha and Rafiq, Kasim and Mehta, Ronak and Abrahms, Briana and Harchaoui, Zaid},
+        booktitle={Methods in Ecology and Evolution (MEE)},
+        year={2025}
+        }</code></pre>
     </div>
 
   </div>
