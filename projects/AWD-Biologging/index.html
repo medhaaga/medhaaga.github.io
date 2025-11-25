@@ -35,7 +35,7 @@ layout: null
       <span><sup>1</sup>University of Washington (Statistics), <sup>2</sup>University of Washington (Biology), <sup>3</sup>Botswana Predator Conservation</span>
     </div>
 
-    <div class="links">
+    <div class="links" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 30px;">
       <a href="https://www.biorxiv.org/content/10.1101/2024.12.28.630628v2.full.pdf" class="btn">Paper</a>
       <a href="https://github.com/medhaaga/AWD-Biologging" class="btn">Code</a>
       <a href="https://zenodo.org/records/16890491" class="btn">Dataset</a>
@@ -54,17 +54,17 @@ layout: null
     <h2>Highlights</h2>
     <ul>
         <li>
-        Animal-worn sensors have revolutionised ecology. Accelerometers, which measure changes in acceleration across planes of movement, are increasingly being used to classify animal behaviours across taxa.
-        However, practitioners face challenges like sparsely labeled data with class imbalance, noisy data, distribution shift, and unquantified uncertainty.
+        Accelerometers, which measure changes in acceleration across planes of movement, are increasingly being used to classify animal behaviours across taxa.
+        However, practitioners face challenges like sparsely labeled data with <u>class imbalance, noisy data, distribution shift, and unquantified uncertainty</u>.
         </li>
         <li>
-        We introduce an open-source pipeline that integrates 1D Convolutional Neural Networks (CNNs) with Conformal Prediction (CP) to produce statistically valid prediction sets for animal behavior.
+        We <u>introduce an open-source pipeline that integrates 1D Convolutional Neural Networks (CNNs) with Conformal Prediction (CP)</u> to produce statistically valid prediction sets for animal behavior.
         </li>
         <li>
-        Our approach includes a flexible class rebalancing strategy that significantly improves the detection of rare, ecologically important behaviors.
+        Our approach includes a <u>flexible class rebalancing</u> strategy that significantly improves the detection of rare, ecologically important behaviors.
         </li>
         <li>
-        We evaluate our approach via simulation and highlight its utility using data collected from a free-ranging large carnivore, African wild dogs (<em>Lycaon pictus</em>), in the Okavango Delta, Botswana.
+        We evaluate our approach via simulation and highlight its utility using data collected from a free-ranging large carnivore, <u>African wild dogs</u> (<em>Lycaon pictus</em>), in the Okavango Delta, Botswana.
         </li>
     </ul>
     </div>
@@ -72,7 +72,7 @@ layout: null
     <div class="section">
     <h2>Challenges of Behavior Prediction in Ecology</h2>
     <p>
-        The utility of accelerometers lies in their ability to capture distinct waveform patterns within raw data that correspond to specific movements or postures. While techniques range from classical classifiers (SVMs, Random Forests) to deep learning (CNNs, Transformers), current applications face several key limitations:
+        Accelerometers capture waveform patterns corresponding to specific movements, but translating these into reliable behavioral logs is difficult. Current ML applications in ecology face four main limitations:
     </p>
     <ul>
         <li>
