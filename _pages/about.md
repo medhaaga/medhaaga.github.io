@@ -18,11 +18,11 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
   <div style="display: flex; gap: 20px;">
-    <b style="min-width: 120px;">July 2025</b> <span style="flex: 1;"> Our paper titled <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210x.70206">Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty</a> is published at the Journal of Methods in Ecology and Evolution. </span>
+    <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a <b>Visiting Scholar</b> at the Harvard Medical School. </span>
   </div>
 
   <div style="display: flex; gap: 20px;">
-    <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a <b>Visiting Scholar</b> at the Harvard Medical School. </span>
+    <b style="min-width: 120px;">July 2025</b> <span style="flex: 1;"> Our paper titled <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210x.70206">Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty</a> is published at the Journal of Methods in Ecology and Evolution. </span>
   </div>
 
   <div style="display: flex; gap: 20px;">
