@@ -22,7 +22,7 @@ redirect_from:
 ## Journals
 
 **Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty**  \
-**Medha Agarwal**, Kasim Rafiq Ronak Mehta, Brianna Abrahms, Zaid Harchaoui  \
+**Medha Agarwal**, Kasim Rafiq Ronak Mehta, Brianna Abrahms, Zaid Harchaoui \
 *Journal of Methods in Ecology and Evolution* \
 [Project Page](https://medhaaga.github.io/projects/AWD-Biologging/) &nbsp; [PDF](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210x.70206) &nbsp; [Code](https://github.com/medhaaga/AWD-Biologging) &nbsp; [Dataset](https://zenodo.org/records/16890491) &nbsp; 
 
@@ -37,13 +37,13 @@ redirect_from:
 [PDF](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-16/issue-2/A-principled-stopping-rule-for-importance-sampling/10.1214/22-EJS2074.full) &nbsp; [Code](https://github.com/medhaaga/Importance-Sampling-Stopping-Rule) &nbsp;  
 
 **Globally Centered Autocovariances in MCMC**  \
-**Medha Agarwal**, Dootika Vats\
-*Journal of Computational and Graphical Statistics, 2022*\ 
+**Medha Agarwal**, Dootika Vats \
+*Journal of Computational and Graphical Statistics, 2022* \
 [PDF](https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2037433) &nbsp; [Code](https://github.com/medhaaga/Replicated-Spectral-Variance-Estimator) &nbsp;  
 
 ## Technical Reports
 
 **STAT 572 Prelim Report: Control Functionals for Monte Carlo Integration**  \
 **Medha Agarwal**\
-[PDF]({{ "/assets/papers/prelim_report.pdf" | relative_url }}) &nbsp; [Code](https://github.com/medhaaga/Control-Functionals)  &nbsp;  [Slides]({{ "/assets/papers/prelim_slides.pdf" | relative_url }})
+[PDF]({{ "/assets/pdf/prelim_report.pdf" | relative_url }}) &nbsp; [Code](https://github.com/medhaaga/Control-Functionals)  &nbsp;  [Slides]({{ "/assets/slides/prelim_slides.pdf" | relative_url }})
  
