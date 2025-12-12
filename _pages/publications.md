@@ -9,15 +9,14 @@ redirect_from:
 {% include base_path %}
 
 ## Preprints
-**Langevin Diffusion Approximation to Same Marginal Schrödinger Bridge**
-
+**Langevin Diffusion Approximation to Same Marginal Schrödinger Bridge**\
 **Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
-*arXiv:2505.07647*
+*arXiv:2505.07647*\
 [PDF](https://arxiv.org/abs/2505.07647)
 
 **Iterated Schrödinger bridge approximation to Wasserstein Gradient Flows**  
 **Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
-*arXiv:2406.10823* 
+*arXiv:2406.10823* \
 [PDF](https://arxiv.org/pdf/2406.10823) &nbsp; [Code](https://github.com/medhaaga/SchrodingerBridgeScheme) &nbsp;  
 
 ## Journals
@@ -44,7 +43,7 @@ redirect_from:
 
 ## Technical Reports
 
-**STAT 572 Prelim Report: Control Functionals for Monte Carlo Integration**  
-**Medha Agarwal**
+**STAT 572 Prelim Report: Control Functionals for Monte Carlo Integration**  \
+**Medha Agarwal**\
 [PDF]({{ "/assets/papers/prelim_report.pdf" | relative_url }}) &nbsp; [Slides]({{ "/assets/papers/prelim_slides.pdf" | relative_url }})
  
