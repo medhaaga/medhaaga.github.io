@@ -45,5 +45,5 @@ redirect_from:
 
 **STAT 572 Prelim Report: Control Functionals for Monte Carlo Integration**  \
 **Medha Agarwal**\
-[PDF]({{ "/assets/papers/prelim_report.pdf" | relative_url }}) &nbsp; [Slides]({{ "/assets/papers/prelim_slides.pdf" | relative_url }})
+[PDF]({{ "/assets/papers/prelim_report.pdf" | relative_url }}) &nbsp; [Code](https://github.com/medhaaga/Control-Functionals)  &nbsp;  [Slides]({{ "/assets/papers/prelim_slides.pdf" | relative_url }})
  
