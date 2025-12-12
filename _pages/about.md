@@ -22,7 +22,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
   </div>
 
   <div style="display: flex; gap: 20px;">
-    <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a **Visiting Scholar** at the Harvard Medical School. </span>
+    <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a <b>Visiting Scholar</b> at the Harvard Medical School. </span>
   </div>
 
   <div style="display: flex; gap: 20px;">
