@@ -7,28 +7,23 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- Leave two spaces at the end -->
-
-<!-- ## Preprints
-
-**A Primal-Dual Algorithm for Faster Distributionally Robust Optimization**  
-**Ronak Mehta**, Jelena Diakonikolas, Zaid Harchaoui  
-*Under review*.  
-[PDF](https://arxiv.org/abs/2403.10763) &nbsp; -->
-
-## Preprint (under peer review)
-
-**Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty**  
-**Medha Agarwal**, Kasim Rafiq Ronak Mehta, Brianna Abrahms, Zaid Harchaoui  
-*bioRxiv, 2024.12. 28.630628*.  
-[PDF](https://www.biorxiv.org/content/10.1101/2024.12.28.630628v1.full.pdf) &nbsp; [Code](https://github.com/medhaaga/AWD-Biologging) &nbsp; 
+## Preprints
+**Langevin Diffusion Approximation to Same Marginal Schrödinger Bridge**
+**Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
+*arXiv:2505.07647*
+[PDF](https://arxiv.org/abs/2505.07647)
 
 **Iterated Schrödinger bridge approximation to Wasserstein Gradient Flows**  
 **Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
-*arXiv:2406.10823*.  
+*arXiv:2406.10823* 
 [PDF](https://arxiv.org/pdf/2406.10823) &nbsp; [Code](https://github.com/medhaaga/SchrodingerBridgeScheme) &nbsp;  
 
 ## Journals
+
+**Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty**  
+**Medha Agarwal**, Kasim Rafiq Ronak Mehta, Brianna Abrahms, Zaid Harchaoui  
+*Journal of Methods in Ecology and Evolution*.  
+[Project Page](https://medhaaga.github.io/projects/AWD-Biologging/) &nbsp; [PDF](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210x.70206) &nbsp; [Code](https://github.com/medhaaga/AWD-Biologging) &nbsp; [Dataset](https://zenodo.org/records/16890491) &nbsp; 
 
 **Quasi-Newton Acceleration of EM and MM Algorithms via Broyden’s Method**  
 **Medha Agarwal**, Jason Xu 
@@ -45,3 +40,9 @@ redirect_from:
 *Journal of Computational and Graphical Statistics, 2022*.  
 [PDF](https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2037433) &nbsp; [Code](https://github.com/medhaaga/Replicated-Spectral-Variance-Estimator) &nbsp;  
 
+## Technical Reports
+
+**STAT 572 Prelim Report: Control Functionals for Monte Carlo Integration**  
+**Medha Agarwal**
+[PDF]({{ "/assets/papers/prelim_report.pdf" | relative_url }}) &nbsp; [Slides]({{ "/assets/papers/prelim_slides.pdf" | relative_url }})
+ 
