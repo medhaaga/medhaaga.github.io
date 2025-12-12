@@ -10,6 +10,7 @@ redirect_from:
 
 ## Preprints
 **Langevin Diffusion Approximation to Same Marginal Schrödinger Bridge**
+
 **Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
 *arXiv:2505.07647*
 [PDF](https://arxiv.org/abs/2505.07647)
