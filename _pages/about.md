@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Ph.D. student in the [Department of Statistics](https://stat.uw.edu/) at University of Washington advised by [Zaid Harchaoui](https://faculty.washington.edu/zaid/) and [Alex Luedtke](https://www.alexluedtke.com/). My research interests involve **generative modeling**, **optimal transport & gradient flows**, **causal inference**, and **machine learning** in general. At UW, I am fortunate to be working with [Soumik Pal](https://sites.math.washington.edu//~soumik/) on optimal transport. I also work in collaboration with the [Abrahms's Lab](https://www.abrahmslab.com/) and [eScience Institute](https://escience.washington.edu/) on developing AI tools for ecology. 
+I am a fifth-year Ph.D. student in the [Department of Statistics](https://stat.uw.edu/) at University of Washington advised by [Alex Luedtke](https://www.alexluedtke.com/). My research interests involve **optimal transport & gradient flows**, **causal inference**, **non-parametric & semiparametric statistics**, and **machine learning** in general. At UW, I am fortunate to be working with [Zaid Harachaoui](https://sites.google.com/uw.edu/zaid-harchaoui/main) and [Soumik Pal](https://sites.math.washington.edu//~soumik/). I also work in collaboration with the [Abrahms's Lab](https://www.abrahmslab.com/) and [eScience Institute](https://escience.washington.edu/) on developing AI tools for ecology. 
 
 I did my undergraduate in Mathematics from [Indian Institute of Technology Kanpur](https://www.iitk.ac.in/) with a minor in English literature. At IITK, I worked on developing methods for output analysis and convergence diagnostics of Markov chain Monte Carlo and importance sampling with [Dootika Vats](https://dvats.github.io).
 
@@ -16,6 +16,10 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 ## News
 
 <div style="display: flex; flex-direction: column; gap: 10px;">
+
+  <div style="display: flex; gap: 20px;">
+    <b style="min-width: 120px;">May 2026</b> <span style="flex: 1;"> Looking forward to attend the<a href="https://sites.google.com/view/ot-opt-2026/workshop?authuser=0">Optimal Transport + Optimization Workshop</a> in Les Diablerets, Switzerland. </span>
+  </div>
 
   <div style="display: flex; gap: 20px;">
     <b style="min-width: 120px;">Winter 2026</b> <span style="flex: 1;"> Looking forward to be a <b>Visiting Scholar</b> at the Harvard Medical School. </span>
