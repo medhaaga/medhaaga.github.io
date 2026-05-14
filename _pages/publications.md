@@ -10,7 +10,7 @@ redirect_from:
 
 ## Preprints
 
-**Sinkhorn Treatment Effects: A Causal Optimal Transport Measure**
+**Sinkhorn Treatment Effects: A Causal Optimal Transport Measure**\
 **Medha Agarwal**, Alex Luedtke\
 *arxiv:2605.08485*\
 [Project Page](https://medhaaga.github.io/projects/STE/) &nbsp; [PDF](https://arxiv.org/pdf/2605.08485v1) &nbsp;  
