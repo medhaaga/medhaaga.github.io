@@ -18,10 +18,6 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
   <div style="display: flex; gap: 20px;">
-    <b style="min-width: 120px;">May 2026</b> <span style="flex: 1;"> Our paper titled <a href="https://arxiv.org/pdf/2605.08485v1">Sinkhorn Treatment Effects: A Causal Optimal Transport Measure</a> (joint work with <a href="https://www.alexluedtke.com/">Alex Luedtke</a>) has been accepted to the <b>International Conference on Machine Learning (2026)</b>. </span>
-  </div>
-
-  <div style="display: flex; gap: 20px;">
     <b style="min-width: 120px;">May 2026</b> <span style="flex: 1;"> Looking forward to attend the <a href="https://sites.google.com/view/ot-opt-2026/workshop?authuser=0">Optimal Transport + Optimization Workshop</a> in Les Diablerets, Switzerland. </span>
   </div>
 
@@ -45,8 +41,8 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     <b style="min-width: 120px;">Feb 2025</b> <span style="flex: 1;"> Gave a talk at the <a href="https://escience.washington.edu/events/uw-data-science-seminar-kasim-rafiq-and-medha-agarwal/">UW Data Science Seminar</a> titled <i>Revealing the Hidden Lives of Cryptic Carnivores with Machine Learning and AI</i>. Check out the <a href="https://www.youtube.com/watch?v=Y5jXkbXtCag">YouTube video</a>! <a href="files/eScience_seminar.pdf">[Slides]</a></span>
   </div>
 
+  </div>
 </div>
-
 
 
 ## Selected Publications
