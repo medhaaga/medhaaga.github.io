@@ -2,15 +2,12 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-
-I am a fifth-year Ph.D. candidate in the [Department of Statistics](https://stat.uw.edu/) at University of Washington advised by Prof. [Alex Luedtke](https://www.alexluedtke.com/). My research interests involve **optimal transport & gradient flows**, **causal inference**, **nonparametric statistics**, and **machine learning** in general. At UW, I am fortunate to be working with Profs. [Zaid Harachaoui](https://sites.google.com/uw.edu/zaid-harchaoui/main) and [Soumik Pal](https://sites.math.washington.edu//~soumik/). I also work in collaboration with the [Abrahms's Lab](https://www.abrahmslab.com/) and [eScience Institute](https://escience.washington.edu/) on developing AI tools for ecology. 
-
-I am a fifth-year Ph.D. candidate in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington advised by Prof. [Alex Luedtke](https://www.alexluedtke.com/). My research interests involve **optimal transport and gradient flows**, **causal inference**, **nonparametric statistics**, and **machine learning**. At UW, I am fortunate to work with Profs. [Zaid Harchaoui](https://sites.google.com/uw.edu/zaid-harchaoui/main) and [Soumik Pal](https://sites.math.washington.edu/~soumik/). I also collaborate with the [Abrahms Lab](https://www.abrahmslab.com/) and the [eScience Institute](https://escience.washington.edu/) on developing AI tools for ecology.
+I am a fifth-year Ph.D. candidate in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington, advised by Prof. [Alex Luedtke](https://www.alexluedtke.com/). My research interests involve **optimal transport and gradient flows**, **causal inference**, **nonparametric statistics**, and **machine learning**. At UW, I am fortunate to work with Profs. [Zaid Harchaoui](https://sites.google.com/uw.edu/zaid-harchaoui/main) and [Soumik Pal](https://sites.math.washington.edu/~soumik/). I also collaborate with the [Abrahms Lab](https://www.abrahmslab.com/) and the [eScience Institute](https://escience.washington.edu/) on developing AI tools for ecology.
 
 I did my undergraduate in Mathematics from [Indian Institute of Technology Kanpur](https://www.iitk.ac.in/) with a minor in English literature. At IITK, I worked on developing methods for output analysis and convergence diagnostics of Markov chain Monte Carlo and importance sampling with [Dootika Vats](https://dvats.github.io).
 
