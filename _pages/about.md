@@ -47,12 +47,9 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 
 </div>
 
-
-
 ## Selected Publications
 
-<div style="display: flex; gap: 20px; margin-bottom: 20px; align-items: flex-start;">
-  
+<div style="display: flex; gap: 20px; margin-bottom: 28px; align-items: flex-start;">
   <div style="flex: 0 0 160px;"> 
     <img src="/projects/STE/static/thumbnail.png" 
          style="width: 100%; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: 1px solid #eee;">
@@ -75,11 +72,12 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     <br>
     <div style="margin-top: 5px;">
       <a href="https://arxiv.org/pdf/2605.08485v1">[Paper]</a> &nbsp;
-      <a href="/projects/STE/">[Project Page]</a> &nbsp;
+      <a href="/projects/STE/">[Project Page]</a>
     </div>
   </div>
+</div>
 
-
+<div style="display: flex; gap: 20px; margin-bottom: 28px; align-items: flex-start;">
   <div style="flex: 0 0 160px;"> 
     <img src="/projects/AWD-Biologging/static/thumbnail.png" 
          style="width: 100%; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: 1px solid #eee;">
@@ -107,5 +105,4 @@ Contact me at `medhaaga [at] uw [dot] edu`.
       <a href="https://zenodo.org/records/16890491">[Dataset]</a>
     </div>
   </div>
-
 </div>
