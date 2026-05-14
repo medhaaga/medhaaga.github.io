@@ -10,6 +10,8 @@ redirect_from:
 <!-- Leave two spaces at the end -->
 
 ### University of Washington
+* *Teaching Assistant:* STAT 598 - Special Topics: Optimization and Sampling (Spring 2026)
+* *Teaching Assistant:* STAT 311 - Statistical Inference (Winter 2026)
 * *Teaching Assistant:* CSE 547 - Machine Learning for Big Data (Spring 2025)
 * *Teaching Assistant:* STAT 512 - Statistical Inference (Autumn 2024)
 * *Teaching Assistant:* STAT 513 - Statistical Inference (Winter 2024)
