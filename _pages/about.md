@@ -50,6 +50,33 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 <div style="display: flex; gap: 20px; margin-bottom: 20px; align-items: flex-start;">
   
   <div style="flex: 0 0 160px;"> 
+    <img src="/projects/STE/static/thumbnail.png" 
+         style="width: 100%; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: 1px solid #eee;">
+  </div>
+
+  <div style="flex: 1;">
+    <b style="font-size: 1.1em;">
+      <a href="/projects/STE/" style="text-decoration: none; color: inherit;">
+        Sinkhorn Treatment Effects: A Causal Optimal Transport Measure
+      </a>
+    </b>
+    <br>
+    <span style="font-size: 0.9em; color: #666;">
+      <i><b>Medha Agarwal</b>, Alex Luedtke</i>
+    </span>
+    <br>
+    <span style="font-size: 0.9em;">
+      Accepted at <i>International Conference on Machine Learning</i> (2026)
+    </span>
+    <br>
+    <div style="margin-top: 5px;">
+      <a href="https://arxiv.org/pdf/2605.08485v1">[Paper]</a> &nbsp;
+      <a href="/projects/STE/">[Project Page]</a> &nbsp;
+    </div>
+  </div>
+
+
+  <div style="flex: 0 0 160px;"> 
     <img src="/projects/AWD-Biologging/static/thumbnail.png" 
          style="width: 100%; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: 1px solid #eee;">
   </div>

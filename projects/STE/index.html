@@ -1,0 +1,172 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sinkhorn Treatment Effects</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+  <div class="content">
+    <h1>Sinkhorn Treatment Effects: A Causal Optimal Transport Measure</h1>
+
+    <div class="authors">
+      <span class="author-block">Medha Agarwal<sup>1</sup>,</span>
+      <span class="author-block">Alex Luedtke<sup>2</sup></span>
+    </div>
+
+    <div class="affiliations">
+      <span><sup>1</sup>University of Washington (Statistics), <sup>2</sup>Harvard Medical School (Department of Health Care Policy)</span>
+    </div>
+
+    <div class="links" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 30px;">
+      <a href="https://arxiv.org/pdf/2605.08485v1" class="btn">Paper</a>
+    </div>
+
+    <div class="teaser">
+      <div class="figure-row">
+        <img src="static/intro.png" alt="Sinkhorn_vs_MMD">
+        <p class="caption">
+          MMD vs. Sinkhorn divergence across increasing separation $\theta$ between counterfactual outcome distribution under control $P_0 = \mathcal{N}(\mathbf{0}_2, I_2)$ and under treatment $P_{1, \theta} = \tfrac{1}{2} \mathcal{N}(-\theta\mathbf{1}_2, I_2) + \tfrac{1}{2} \mathcal{N}(\theta\mathbf{1}_2, I_2)$. The average treatment effect is zero for all $\theta > 0$. Here $D_\theta$ denotes either MMD or Sinkhorn divergence between $P_0$ and $P_{1, \theta}$. As $\theta$ increases, the distributions diverge and <b>MMD saturates, failing to distinguish between `far' and `very far' distributions</b>, whereas the Sinkhorn divergence continues to grow..
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Highlights</h2>
+      <ul>
+        <li>
+          Classical causal summaries such as the average treatment effect (ATE) can miss changes in higher moments, tails, modality, and geometry of the outcome distribution. We target <u>distributional treatment effects (DTEs)</u>: causal effects that compare the full counterfactual outcome distributions. 
+        </li>
+        <li>
+          We define the <u>Sinkhorn treatment effect</u> (STE) as the Sinkhorn divergence between the two counterfactual outcome laws. The resulting estimand is a regularized optimal transport discrepancy, with a ground cost that encodes the geometry of the outcome space.
+        </li>
+        <li>
+          We characterize the smoothness of STE functional, showing it is <u>first-order pathwise differentiable</u> and <u>second-order pathwise differentiable</u> under the null of no DTE.
+        </li> 
+        <li>
+          We use this differentiability to construct efficient first- and second-order bias-corrected estimators of STE.
+        </li>
+        <li>
+          Because the regularization parameter $\varepsilon$ controls the geometry-resolution tradeoff, we also propose an <u>aggregated test</u> over a finite grid of $\varepsilon$ values.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Why not only compare means?</h2>
+      <p>
+        In the binary treatment setting, we observe $Z=(X,A,Y) \in \mathcal{Z}$, where $X \in \mathcal{X}$ are confounders, $A\in\{0,1\}$ is treatment, and $Y \in \mathcal{Y}$ is the observed outcome. Under standard identification conditions, the observed law $P$ identifies the counterfactual outcome laws $P_1$ and $P_0$. The ATE compares only $\mathbb E_{P_1}[Y] - \mathbb E_{P_0}[Y]$.
+      </p>
+      <p>
+        While convenient for computation and inference, mean-based summaries can mask important effects that occur away from the center of the distribution or saturate, failing to distinguish between far and very far distributions. Distributional treatment effects address this by comparing the entire laws $P_1$ and $P_0$. 
+      </p>
+      <p>
+        Kernel-based methods estimate counterfactual distributions via kernel mean embeddings (KME) into characteristic reproducing kernel Hilbert spaces (RKHS) and quantify DTE using maximum mean discrepancy (MMD), termed as MMD treatment effect (MTE). Although MMD metrizes weak convergence, it induces a flat geometry on the space of probability measures and may fail to capture meaningful geometric discrepancies between counterfactual distributions, especially when their supports weakly overlap or separate.
+      </p>
+
+      <div class="teaser">
+        <img src="static/mmd_vs_sinkhorn.gif" 
+            alt="Temporal Smoothing Animation" 
+            style="width: 70%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        
+        <p class="caption">
+            <strong>MMD vs Sinkhorn:</strong> MMD saturates as the difference between means of $P$ and $Q_\theta$ increases, whereas Sinkhorn divergence continues to distinguish between distributions.
+        </p>
+        </div>
+    </div>
+
+    <div class="section">
+      <h2>The estimand</h2>
+      <p>
+        The STE at a fixed regularization level $\varepsilon>0$ is $\mathcal{S}(P) = S_\varepsilon(P_1,P_0)$, where $P_a$ is the counterfactual law of $Y_a$ identified from the observed law $P$, and $S_\varepsilon$ is the debiased entropic optimal transport cost known as the Sinkhorn divergence.
+      </p>
+      <h3>Functional Representation under Identifiability</h3>
+      <p>
+        The key statistical object is the map from the observed law to the Sinkhorn divergence between identified counterfactual laws. We write this composition as
+      </p>
+      <p class="display-eq">
+        $$\mathcal{S}(P) = S_\varepsilon \circ J \circ \Psi (P),$$
+      </p>
+      <ol>
+        <li>
+        <u>Counterfactual Mean Embedding:</u> $\Psi(P) = (\psi^1(P), \psi^0(P))$ maps the observed law to the two counterfactual kernel mean embeddings.
+        </li>
+        <li>
+        <u>Canonical Isometric Embedding:</u> $J$ embeds kernel embeddings of distributions into the Banach space in which the Sinkhorn divergence is analyzed.
+        </li>
+        <li>
+        <u>Sinkhorn Divergence:</u> $S_\varepsilon$ maps the pair of embedded counterfactual distributions to the Sinkhorn divergence between them.
+
+        </li>
+      </ol>
+
+      <h3>Smoothness Properties</h3>
+      <ol>
+        <li>
+        <u>First-order pathwise differentiability:</u> The functional $P \mapsto \mathcal{S}(P)$ is first-order pathwise differentiable at a general $P$ with efficient influence function $\dot{\mathcal{S}}_P: \mathcal{Z} \to \mathbb{R}$ (Lemma 3.1).
+        </li>
+        <li>
+        <u>Second-order pathwise differentiability:</u> At the null hypothesis of no DTE, when $P_1 = P_0$, the first-order derivative of the Sinkhorn divergence vanishes. This degeneracy enables a second-order expansion, yielding a second-order efficient influence function $\ddot{\mathcal{S}}_P: \mathcal{Z} \times \mathcal{Z} \to \mathbb{R}$ (Theorem 3.2).
+        </li>
+      </ol>
+
+    </div>
+
+    <div class="section">
+      <h2>One-Step Estimator and Inference</h2>
+
+      <div class="figure-row">
+        <img src="static/debiased.png" alt="Observed law maps to counterfactual laws, Sinkhorn divergence, and one-step inference">
+        <p class="caption">
+          <strong>Estimation pipeline.</strong> The observed data are split to construct an initial estimator $\widehat{P}$ and an empirical distribution $P_n$. The initial estimator is used to estimate nuisance quantities. The plug-in estimator $S_\varepsilon(\widehat{P}_1,\widehat{P}_0)$ is then debiased using the ones-step estimation. First-order debiasing yields an asymptotically linear estimator away from the null; second-order debiasing yields the test statistic for the null hypothesis with nominal type-I error control.
+        </p>
+      </div>
+
+      <h3>Aggregating over regularization levels</h3>
+      <p>
+        A single value of $\varepsilon$ may be poorly matched to the alternative: small $\varepsilon$ emphasizes fine geometric structure, while larger $\varepsilon$ yields a smoother discrepancy closer to kernel-based comparisons. We therefore consider a finite grid $\Xi$ of regularization values and combine evidence across scales using a max-type statistic. The aggregated test achieves a nominal type-I error asymptotically.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Simulations</h2>
+
+      <p>
+        To probe the sensitivity of MTE and STE, we consider two distinct regimes governing the separation between the counterfactual outcome distributions. In <b>Exp (i) (mean shift)</b>, the counterfactual outcome laws differ through their means: $P_0=\mathcal{N}(0,\Sigma)$ and $P_1=\mathcal{N}(\theta\mathbf{1}_2,\Sigma)$. In <b>Exp (ii) (covariance shift)</b>, the counterfactual outcome laws have the same mean but different covariance: $P_0=\mathcal{N}(0,\Sigma)$ and $P_1=\mathcal{N}(\mathbf{0}_2,\Sigma+\theta\Delta)$. In both settings, $\theta=0$ corresponds to the null and increasing $\theta$ corresponds to stronger alternatives.
+      </p>
+      <div class="figure-row">
+        <img src="static/simulations.png" alt="PCam image outcomes embedded into feature space and compared by Sinkhorn treatment effects">
+        <p class="caption">
+         <strong>Simulations.</strong> <b>I</b>: Type~I error of the MTE and STE under null (\(\theta=0.0\)); <b>II</b>: Power of MTE and STE under increasing separation between counterfactual distributions (increasing \(\theta\)) under Exp (i); <b>III</b>: Power of MTE and STE under increasing separation between counterfactual distributions (increasing \(\theta\)) under Exp (ii); <b>IV</b>: Mean squared error of plugin vs one-step STE for \(\theta = 1.6\) from Exp (i); <b>V</b>: Coverage of Wald-type $95\%$ confidence intervals for \(\theta = 1.6\) from Exp (i). 
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Citation</h2>
+      <pre><code>@article{agarwal2026sinkhorn,
+        title={Sinkhorn Treatment Effects: A Causal Optimal Transport Measure},
+        author={Agarwal, Medha and Luedtke, Alex},
+        journal={arXiv preprint arXiv:2605.08485},
+        year={2026}
+      }</code></pre>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

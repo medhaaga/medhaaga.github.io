@@ -8,10 +8,6 @@ redirect_from:
 {% include base_path %}
 
 ## Preprints
-**Langevin Diffusion Approximation to Same Marginal Schrödinger Bridge**
-**Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
-*arXiv:2505.07647*
-[PDF](https://arxiv.org/abs/2505.07647)
 
 **Iterated Schrödinger bridge approximation to Wasserstein Gradient Flows**  
 **Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
@@ -19,6 +15,11 @@ redirect_from:
 [PDF](https://arxiv.org/pdf/2406.10823) &nbsp; [Code](https://github.com/medhaaga/SchrodingerBridgeScheme) &nbsp;  
 
 ## Journals
+
+**Langevin Diffusion Approximation to Same Marginal Schrödinger Bridge**
+**Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
+*Journal of Functional Analysis*
+[PDF](https://www.sciencedirect.com/science/article/pii/S0022123626001588)
 
 **Leveraging machine learning and accelerometry to classify animal behaviours with uncertainty**  
 **Medha Agarwal**, Kasim Rafiq Ronak Mehta, Brianna Abrahms, Zaid Harchaoui  
