@@ -69,7 +69,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     </span>
     <br>
     <span style="font-size: 0.9em;">
-      Accepted at <i>International Conference on Machine Learning</i> (2026)
+      <i>International Conference on Machine Learning</i> (2026)
     </span>
     <br>
     <div style="margin-top: 5px;">
@@ -97,7 +97,7 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     </span>
     <br>
     <span style="font-size: 0.9em;">
-      Accepted at <i>Methods in Ecology and Evolution</i> (2025)
+      <i>Methods in Ecology and Evolution</i> (2025)
     </span>
     <br>
     <div style="margin-top: 5px;">
