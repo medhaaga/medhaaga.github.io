@@ -44,14 +44,6 @@ Contact me at `medhaaga [at] uw [dot] edu`.
     <b style="min-width: 120px;">June 2025</b> <span style="flex: 1;"> Attended the workshop on <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5430">Wasserstein Gradient Flows in Math and Machine Learning</a> at Banff International Research Station. </span>
   </div>
 
-  <div style="display: flex; gap: 20px;">
-    <b style="min-width: 120px;">Feb 2025</b> <span style="flex: 1;"> Gave a talk at the <a href="https://www.ifml.institute/events/mathematics-deep-learning-workshop">IFML Mathematics of Deep Learning Workshop</a> in Austin, TX. <a href="files/ifml.pdf">[Slides]</a></span>
-  </div>
-
-  <div style="display: flex; gap: 20px;">
-    <b style="min-width: 120px;">Feb 2025</b> <span style="flex: 1;"> Gave a talk at the <a href="https://escience.washington.edu/events/uw-data-science-seminar-kasim-rafiq-and-medha-agarwal/">UW Data Science Seminar</a> titled <i>Revealing the Hidden Lives of Cryptic Carnivores with Machine Learning and AI</i>. Check out the <a href="https://www.youtube.com/watch?v=Y5jXkbXtCag">YouTube video</a>! <a href="files/eScience_seminar.pdf">[Slides]</a></span>
-  </div>
-
 </div>
 
 ## Selected Publications
