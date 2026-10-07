@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Ph.D. candidate in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington, advised by Prof. [Alex Luedtke](https://www.alexluedtke.com/). My research lies at the intersection of causal inference, optimal transport, nonparametric statistics, and machine learning. At UW, I am fortunate to work with Profs. [Zaid Harchaoui](https://sites.google.com/uw.edu/zaid-harchaoui/main) and [Soumik Pal](https://sites.math.washington.edu/~soumik/).
+I am a final-year Ph.D. candidate in the [Department of Statistics](https://stat.uw.edu/) at the University of Washington, advised by Prof. [Alex Luedtke](https://www.alexluedtke.com/). My research lies at the intersection of causal inference, optimal transport, nonparametric statistics, and machine learning. At UW, I am fortunate to have worked with Profs. [Zaid Harchaoui](https://sites.google.com/uw.edu/zaid-harchaoui/main) and [Soumik Pal](https://sites.math.washington.edu/~soumik/).
 
 I also collaborate with the [Abrahms Lab](https://www.abrahmslab.com/) and the [eScience Institute](https://escience.washington.edu/) on developing AI tools for ecology.
 
@@ -19,6 +19,10 @@ Contact me at `medhaaga [at] uw [dot] edu`.
 
 <div style="display: flex; flex-direction: column; gap: 10px;">
 
+
+  <div style="display: flex; gap: 20px;">
+    <b style="min-width: 120px;">Nov 2026</b> <span style="flex: 1;"> Looking forward to giving a talk at the <a href="https://asa-slds.github.io/slds2026/">ASA Statistical learning and Data Science Conference</a> in Brooklyn, New York. </span>
+  </div>
 
   <div style="display: flex; gap: 20px;">
     <b style="min-width: 120px;">May 2026</b> <span style="flex: 1;"> Gave a talk at the <a href="https://sites.google.com/view/ot-opt-2026/workshop?authuser=0">Optimal Transport + Optimization Workshop</a> in Les Diablerets, Switzerland. </span>

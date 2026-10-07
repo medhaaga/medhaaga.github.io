@@ -10,15 +10,17 @@ redirect_from:
 
 ## Preprints
 
-**Sinkhorn Treatment Effects: A Causal Optimal Transport Measure**\
-**Medha Agarwal**, Alex Luedtke\
-*arxiv:2605.08485*\
-[Project Page](https://medhaaga.github.io/projects/STE/) &nbsp; [PDF](https://arxiv.org/pdf/2605.08485v1) &nbsp;  
-
 **Iterated Schrödinger bridge approximation to Wasserstein Gradient Flows**  
 **Medha Agarwal**, Zaid Harchaoui, Garrett Mulcahy, Soumik Pal
 *arXiv:2406.10823* 
 [PDF](https://arxiv.org/pdf/2406.10823) &nbsp; [Code](https://github.com/medhaaga/SchrodingerBridgeScheme) &nbsp;  
+
+## Conference
+
+**Sinkhorn Treatment Effects: A Causal Optimal Transport Measure**\
+**Medha Agarwal**, Alex Luedtke\
+*International Conference on Machine Learning (ICML) 2026*\
+[Project Page](https://medhaaga.github.io/projects/STE/) &nbsp; [PDF](https://openreview.net/forum?id=HdhEFfEsoz) &nbsp;  
 
 ## Journals
 
@@ -46,6 +48,7 @@ redirect_from:
 **Medha Agarwal**, Dootika Vats
 *Journal of Computational and Graphical Statistics, 2022*.  
 [PDF](https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2037433) &nbsp; [Code](https://github.com/medhaaga/Replicated-Spectral-Variance-Estimator) &nbsp;  
+
 
 ## Technical Reports
 
